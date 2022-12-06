@@ -1,0 +1,101 @@
+Alignment sites: 29 3026
+sites partition_0 = 1-678
+sites partition_1 = 679-1112
+sites partition_2 = 1113-1939
+sites partition_3 = 1940-2456
+sites partition_4 = 2457-3026
+Alignment has 6 completely undetermined sites that will be automatically removed from the input data
+Alignment has 6 completely undetermined sites that will be automatically removed from the input data
+Alignment has 6 completely undetermined sites that will be automatically removed from the input data
+Alignment has 6 completely undetermined sites that will be automatically removed from the input data
+Alignment has 6 completely undetermined sites that will be automatically removed from the input data
+Alignment has 6 completely undetermined sites that will be automatically removed from the input data
+Alignment has 6 completely undetermined sites that will be automatically removed from the input data
+Alignment has 6 completely undetermined sites that will be automatically removed from the input data
+Alignment has 6 completely undetermined sites that will be automatically removed from the input data
+Alignment has 6 completely undetermined sites that will be automatically removed from the input data
+Alignment has 449 distinct alignment patterns
+Proportion of gaps and completely undetermined characters in this alignment: 9.69%
+Partition: 0
+Alignment Patterns: 75
+DataType: DNA
+Substitution Matrix: GTR
+Partition: 1
+Alignment Patterns: 60
+DataType: DNA
+Substitution Matrix: GTR
+Partition: 2
+Alignment Patterns: 91
+DataType: DNA
+Substitution Matrix: GTR
+Partition: 3
+Alignment Patterns: 126
+DataType: DNA
+Substitution Matrix: GTR
+Partition: 4
+Alignment Patterns: 97
+DataType: DNA
+Substitution Matrix: GTR
+raxml -m GTRGAMMA -f a -p 12345 -T 4 -x 12345 -N 1000
+alpha: 0.776842
+Tree-Length: 0.382173
+rate A <-> C: 1.057579
+rate A <-> G: 4.029028
+rate A <-> T: 1.287708
+rate C <-> G: 0.716547
+rate C <-> T: 7.932891
+rate G <-> T: 1.000000
+freq pi(A): 0.234181
+freq pi(C): 0.286842
+freq pi(G): 0.239306
+freq pi(T): 0.239672
+alpha: 0.088826
+Tree-Length: 0.382173
+rate A <-> C: 0.535258
+rate A <-> G: 3.200942
+rate A <-> T: 1.321891
+rate C <-> G: 1.606235
+rate C <-> T: 7.052060
+rate G <-> T: 1.000000
+freq pi(A): 0.228047
+freq pi(C): 0.379407
+freq pi(G): 0.206420
+freq pi(T): 0.186126
+alpha: 0.413150
+Tree-Length: 0.382173
+rate A <-> C: 1.379652
+rate A <-> G: 3.342887
+rate A <-> T: 0.722325
+rate C <-> G: 0.955389
+rate C <-> T: 11.207049
+rate G <-> T: 1.000000
+freq pi(A): 0.268801
+freq pi(C): 0.236302
+freq pi(G): 0.259776
+freq pi(T): 0.235120
+alpha: 0.310171
+Tree-Length: 0.382173
+rate A <-> C: 1.921538
+rate A <-> G: 3.063010
+rate A <-> T: 2.976238
+rate C <-> G: 0.728463
+rate C <-> T: 4.392650
+rate G <-> T: 1.000000
+freq pi(A): 0.224265
+freq pi(C): 0.328421
+freq pi(G): 0.200106
+freq pi(T): 0.247208
+alpha: 0.316659
+Tree-Length: 0.382173
+rate A <-> C: 1.794651
+rate A <-> G: 8.431261
+rate A <-> T: 2.134993
+rate C <-> G: 2.611166
+rate C <-> T: 7.671706
+rate G <-> T: 1.000000
+freq pi(A): 0.219748
+freq pi(C): 0.314974
+freq pi(G): 0.231479
+freq pi(T): 0.233800
+ML search took 3.916145 secs or 0.001088 hours
+Combined Bootstrap and ML search took 29.027932 secs or 0.008063 hours

@@ -1,0 +1,40 @@
+Alignment sites: 94 204
+Alignment has 185 distinct alignment patterns
+Proportion of gaps and completely undetermined characters in this alignment: 7.86%
+Partition: 0
+Alignment Patterns: 185
+DataType: Multi-State with 7 distinct states in use (maximum 32)
+Substitution Matrix: GTR
+raxml -m MULTIGAMMA -f a -K True -p 12345 -T 4 -x 12345 -N 1000
+alpha: 1.004350
+Tree-Length: 14.352818
+rate 0 <-> 1: 0.551497
+rate 0 <-> 2: 0.260858
+rate 0 <-> 3: 0.121403
+rate 0 <-> 4: 0.018867
+rate 0 <-> 5: 0.060530
+rate 0 <-> 6: 0.000100
+rate 1 <-> 2: 0.542773
+rate 1 <-> 3: 0.188416
+rate 1 <-> 4: 0.057327
+rate 1 <-> 5: 0.000100
+rate 1 <-> 6: 0.000100
+rate 2 <-> 3: 1.170220
+rate 2 <-> 4: 1.181317
+rate 2 <-> 5: 1.020321
+rate 2 <-> 6: 1.380090
+rate 3 <-> 4: 3.325288
+rate 3 <-> 5: 1.020575
+rate 3 <-> 6: 6.616679
+rate 4 <-> 5: 3.804841
+rate 4 <-> 6: 0.000100
+rate 5 <-> 6: 1.000000
+freq pi(0): 0.395969
+freq pi(1): 0.375382
+freq pi(2): 0.150447
+freq pi(3): 0.048584
+freq pi(4): 0.021719
+freq pi(5): 0.006900
+freq pi(6): 0.001000
+ML search took 40.410624 secs or 0.011225 hours
+Combined Bootstrap and ML search took 172.372996 secs or 0.047881 hours

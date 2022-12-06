@@ -1,0 +1,91 @@
+Alignment sites: 77 2778
+sites partition_0 = 1-657\3
+sites partition_1 = 2-657\3
+sites partition_2 = 3-657\3
+sites partition_3 = 658-1996
+sites partition_4 = 1997-2778
+Alignment has 1238 distinct alignment patterns
+Proportion of gaps and completely undetermined characters in this alignment: 66.10%
+Partition: 0
+Alignment Patterns: 149
+DataType: DNA
+Substitution Matrix: GTR
+Partition: 1
+Alignment Patterns: 98
+DataType: DNA
+Substitution Matrix: GTR
+Partition: 2
+Alignment Patterns: 209
+DataType: DNA
+Substitution Matrix: GTR
+Partition: 3
+Alignment Patterns: 555
+DataType: DNA
+Substitution Matrix: GTR
+Partition: 4
+Alignment Patterns: 227
+DataType: DNA
+Substitution Matrix: GTR
+raxml -m GTRCAT -f a -p 12345 -T 4 -x 12345 -N autoMRE
+alpha: 0.345598
+Tree-Length: 6.882101
+rate A <-> C: 0.977534
+rate A <-> G: 4.110222
+rate A <-> T: 2.253803
+rate C <-> G: 0.344823
+rate C <-> T: 6.470654
+rate G <-> T: 1.000000
+freq pi(A): 0.319587
+freq pi(C): 0.109031
+freq pi(G): 0.233963
+freq pi(T): 0.337420
+alpha: 0.167734
+Tree-Length: 6.882101
+rate A <-> C: 2.926721
+rate A <-> G: 14.633321
+rate A <-> T: 4.476496
+rate C <-> G: 6.920710
+rate C <-> T: 5.768993
+rate G <-> T: 1.000000
+freq pi(A): 0.155667
+freq pi(C): 0.206415
+freq pi(G): 0.168388
+freq pi(T): 0.469530
+alpha: 0.472287
+Tree-Length: 6.882101
+rate A <-> C: 0.947399
+rate A <-> G: 5.492195
+rate A <-> T: 0.681810
+rate C <-> G: 0.000100
+rate C <-> T: 8.048907
+rate G <-> T: 1.000000
+freq pi(A): 0.414339
+freq pi(C): 0.017180
+freq pi(G): 0.065101
+freq pi(T): 0.503381
+alpha: 0.472811
+Tree-Length: 6.882101
+rate A <-> C: 0.000100
+rate A <-> G: 4.093435
+rate A <-> T: 12.789225
+rate C <-> G: 0.469840
+rate C <-> T: 6.459208
+rate G <-> T: 1.000000
+freq pi(A): 0.364203
+freq pi(C): 0.132565
+freq pi(G): 0.112679
+freq pi(T): 0.390554
+alpha: 0.197003
+Tree-Length: 6.882101
+rate A <-> C: 1.342761
+rate A <-> G: 2.022512
+rate A <-> T: 3.045357
+rate C <-> G: 0.207760
+rate C <-> T: 22.651469
+rate G <-> T: 1.000000
+freq pi(A): 0.194009
+freq pi(C): 0.287639
+freq pi(G): 0.314974
+freq pi(T): 0.203379
+ML search took 63.950000 secs or 0.017764 hours
+Combined Bootstrap and ML search took 217.582050 secs or 0.060439 hours

@@ -1,0 +1,24 @@
+Alignment sites: 28 58935
+Alignment has 142 completely undetermined sites that will be automatically removed from the input data
+Alignment has 142 completely undetermined sites that will be automatically removed from the input data
+Alignment has 1761 distinct alignment patterns
+Proportion of gaps and completely undetermined characters in this alignment: 1.91%
+Partition: 0
+Alignment Patterns: 1761
+DataType: DNA
+Substitution Matrix: GTR
+raxml -m GTRGAMMA -f a -p 12345 -T 64 -x 12345 -N 1000
+alpha: 0.020000
+Tree-Length: 0.141668
+rate A <-> C: 0.886545
+rate A <-> G: 2.627499
+rate A <-> T: 0.158254
+rate C <-> G: 0.590301
+rate C <-> T: 2.402218
+rate G <-> T: 1.000000
+freq pi(A): 0.293001
+freq pi(C): 0.203359
+freq pi(G): 0.200365
+freq pi(T): 0.303275
+ML search took 3.333833 secs or 0.000926 hours
+Combined Bootstrap and ML search took 85.231091 secs or 0.023675 hours

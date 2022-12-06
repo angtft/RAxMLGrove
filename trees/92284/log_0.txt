@@ -1,0 +1,50 @@
+Alignment sites: 27 2190
+sites partition_0 = 1-785
+sites partition_1 = 786-2190
+Alignment has 1 completely undetermined sites that will be automatically removed from the input data
+Alignment has 1 completely undetermined sites that will be automatically removed from the input data
+Alignment has 1 completely undetermined sites that will be automatically removed from the input data
+Alignment has 1 completely undetermined sites that will be automatically removed from the input data
+Alignment has 1 completely undetermined sites that will be automatically removed from the input data
+Alignment has 1 completely undetermined sites that will be automatically removed from the input data
+Alignment has 1 completely undetermined sites that will be automatically removed from the input data
+Alignment has 1 completely undetermined sites that will be automatically removed from the input data
+Alignment has 1 completely undetermined sites that will be automatically removed from the input data
+Alignment has 1 completely undetermined sites that will be automatically removed from the input data
+Alignment has 634 distinct alignment patterns
+Proportion of gaps and completely undetermined characters in this alignment: 33.04%
+Partition: 0
+Alignment Patterns: 417
+DataType: DNA
+Substitution Matrix: GTR
+Partition: 1
+Alignment Patterns: 217
+DataType: DNA
+Substitution Matrix: GTR
+raxml -m GTRCAT -c 25 -f a -p 12345 -T 4 -x 12345 -N 1000
+alpha: 0.427613
+Tree-Length: 1.241277
+rate A <-> C: 0.902833
+rate A <-> G: 2.088204
+rate A <-> T: 1.494484
+rate C <-> G: 0.290706
+rate C <-> T: 2.448065
+rate G <-> T: 1.000000
+freq pi(A): 0.267514
+freq pi(C): 0.180592
+freq pi(G): 0.194562
+freq pi(T): 0.357333
+alpha: 0.088184
+Tree-Length: 1.241277
+rate A <-> C: 0.519243
+rate A <-> G: 42.534819
+rate A <-> T: 0.719746
+rate C <-> G: 0.193500
+rate C <-> T: 6.480395
+rate G <-> T: 1.000000
+freq pi(A): 0.281021
+freq pi(C): 0.185029
+freq pi(G): 0.280848
+freq pi(T): 0.253101
+ML search took 2.638275 secs or 0.000733 hours
+Combined Bootstrap and ML search took 46.760001 secs or 0.012989 hours

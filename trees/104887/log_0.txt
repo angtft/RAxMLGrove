@@ -1,0 +1,22 @@
+Alignment sites: 46 536
+Alignment has 216 distinct alignment patterns
+Proportion of gaps and completely undetermined characters in this alignment: 5.03%
+Partition: 0
+Alignment Patterns: 216
+DataType: DNA
+Substitution Matrix: GTR
+raxml -m GTRCAT -c 25 -f a -k True -p 12345 -T 4 -x 12345 -N 1000
+alpha: 0.327306
+Tree-Length: 1.085582
+rate A <-> C: 1.566854
+rate A <-> G: 4.482541
+rate A <-> T: 1.634718
+rate C <-> G: 0.871241
+rate C <-> T: 5.547681
+rate G <-> T: 1.000000
+freq pi(A): 0.206389
+freq pi(C): 0.272153
+freq pi(G): 0.266815
+freq pi(T): 0.254644
+ML search took 1.677085 secs or 0.000466 hours
+Combined Bootstrap and ML search took 26.864195 secs or 0.007462 hours

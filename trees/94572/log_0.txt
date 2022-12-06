@@ -1,0 +1,50 @@
+Alignment sites: 59 7396
+sites partition_0 = 1-1487,3301-3550,3715-3985
+sites partition_1 = 1488-3300,3551-3714,3986-7396
+Alignment has 3 completely undetermined sites that will be automatically removed from the input data
+Alignment has 3 completely undetermined sites that will be automatically removed from the input data
+Alignment has 3 completely undetermined sites that will be automatically removed from the input data
+Alignment has 3 completely undetermined sites that will be automatically removed from the input data
+Alignment has 3 completely undetermined sites that will be automatically removed from the input data
+Alignment has 3 completely undetermined sites that will be automatically removed from the input data
+Alignment has 3 completely undetermined sites that will be automatically removed from the input data
+Alignment has 3 completely undetermined sites that will be automatically removed from the input data
+Alignment has 3 completely undetermined sites that will be automatically removed from the input data
+Alignment has 3 completely undetermined sites that will be automatically removed from the input data
+Alignment has 918 distinct alignment patterns
+Proportion of gaps and completely undetermined characters in this alignment: 4.07%
+Partition: 0
+Alignment Patterns: 792
+DataType: DNA
+Substitution Matrix: GTR
+Partition: 1
+Alignment Patterns: 126
+DataType: DNA
+Substitution Matrix: GTR
+raxml -m GTRCAT -f a -p 12345 -T 4 -x 12345 -N autoMRE
+alpha: 0.675673
+Tree-Length: 1.000017
+rate A <-> C: 1.133284
+rate A <-> G: 3.730652
+rate A <-> T: 1.712457
+rate C <-> G: 1.096778
+rate C <-> T: 4.355309
+rate G <-> T: 1.000000
+freq pi(A): 0.207686
+freq pi(C): 0.212546
+freq pi(G): 0.266930
+freq pi(T): 0.312838
+alpha: 0.065895
+Tree-Length: 1.000017
+rate A <-> C: 0.418391
+rate A <-> G: 1.471861
+rate A <-> T: 1.713729
+rate C <-> G: 0.184656
+rate C <-> T: 180.947144
+rate G <-> T: 1.000000
+freq pi(A): 0.235330
+freq pi(C): 0.245622
+freq pi(G): 0.307839
+freq pi(T): 0.211209
+ML search took 10.222984 secs or 0.002840 hours
+Combined Bootstrap and ML search took 33.418820 secs or 0.009283 hours

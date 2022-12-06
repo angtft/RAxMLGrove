@@ -1,0 +1,57 @@
+Alignment sites: 657
+sites partition_0 = 1-657\3
+sites partition_1 = 2-657\3
+sites partition_2 = 3-657\3
+Alignment has 404 distinct alignment patterns
+Proportion of gaps and completely undetermined characters in this alignment: 2.58%
+Partition: 0
+Alignment Patterns: 115
+DataType: DNA
+Substitution Matrix: GTR
+Partition: 1
+Alignment Patterns: 70
+DataType: DNA
+Substitution Matrix: GTR
+Partition: 2
+Alignment Patterns: 219
+DataType: DNA
+Substitution Matrix: GTR
+raxml -m GTRGAMMA -f a -p 12345 -T 4 -x 12345 -N 1000
+alpha: 0.123615
+Tree-Length: 66.606985
+rate A <-> C: 0.696226
+rate A <-> G: 2.139103
+rate A <-> T: 0.563820
+rate C <-> G: 0.126665
+rate C <-> T: 53.813954
+rate G <-> T: 1.000000
+freq pi(A): 0.250757
+freq pi(C): 0.234919
+freq pi(G): 0.296412
+freq pi(T): 0.217912
+alpha: 0.050884
+Tree-Length: 66.606985
+rate A <-> C: 0.730912
+rate A <-> G: 8.016314
+rate A <-> T: 1.786840
+rate C <-> G: 5.209388
+rate C <-> T: 2.592612
+rate G <-> T: 1.000000
+freq pi(A): 0.152846
+freq pi(C): 0.257621
+freq pi(G): 0.156006
+freq pi(T): 0.433526
+alpha: 1.271681
+Tree-Length: 66.606985
+rate A <-> C: 0.427487
+rate A <-> G: 10.808111
+rate A <-> T: 0.158057
+rate C <-> G: 0.501110
+rate C <-> T: 4.503197
+rate G <-> T: 1.000000
+freq pi(A): 0.465584
+freq pi(C): 0.129316
+freq pi(G): 0.035590
+freq pi(T): 0.369510
+ML search took 272.061417 secs or 0.075573 hours
+Combined Bootstrap and ML search took 1110.367280 secs or 0.308435 hours

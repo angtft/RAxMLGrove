@@ -1,0 +1,23 @@
+Alignment sites: 43 560
+sites partition_0 = 1-560
+Alignment has 52 distinct alignment patterns
+Proportion of gaps and completely undetermined characters in this alignment: 4.66%
+Partition: 0
+Alignment Patterns: 52
+DataType: DNA
+Substitution Matrix: GTR
+raxml -m PROTCATDAYHOFF -c 25 -f a -p 12345 -T 4 -x 12345 -N 1000
+alpha: 7.607964
+Tree-Length: 0.116660
+rate A <-> C: 3.375956
+rate A <-> G: 3.929110
+rate A <-> T: 4.340419
+rate C <-> G: 2.365904
+rate C <-> T: 12.277168
+rate G <-> T: 1.000000
+freq pi(A): 0.239481
+freq pi(C): 0.294364
+freq pi(G): 0.247103
+freq pi(T): 0.219052
+ML search took 1.830264 secs or 0.000508 hours
+Combined Bootstrap and ML search took 25.541927 secs or 0.007095 hours

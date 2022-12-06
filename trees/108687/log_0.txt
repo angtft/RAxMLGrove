@@ -1,0 +1,142 @@
+Alignment sites: 16379
+sites partition_0 = 5336-5405, 2741-3696\3, 14234-15375\3, 8692-9474\3, 9961-10249\3, 1092-2662, 11829-13648\3, 7850-8690\3, 70-1024, 5093-5162, 5023-5092, 3766-3836, 15445-15512, 11697-11757, 10251-11627\3, 3906-5022\3, 14160-14232, 9475-9543, 3837-3905, 7024-7092, 1025-1091, 1-69, 9891-9959, 9545-9890\3
+sites partition_1 = 10252-11627\3, 7851-8690\3, 11830-13648\3, 9546-9890\3, 6951-7023, 9962-10249\3, 2663-2740, 3697-3765
+sites partition_2 = 5268-5335, 2742-3696\3, 3907-5022\3, 7093-7779\3, 14235-15375\3, 8693-9474\3, 5406-6950\3
+sites partition_3 = 3908-5022\3, 11828-13648\3, 9960-10249\3, 10250-11627\3, 2743-3696\3, 14233-15375\3, 8691-9474\3
+sites partition_4 = 5163-5267, 7095-7779\3, 5408-6950\3
+sites partition_5 = 7780-7849, 11758-11827, 9544-9890\3, 5407-6950\3, 7094-7779\3, 7852-8690\3
+sites partition_6 = 13651-14159\3, 13650-14159\3, 13649-14159\3, 15376-15444, 11628-11696
+sites partition_7 = 15513-16379
+Alignment has 2554 distinct alignment patterns
+Proportion of gaps and completely undetermined characters in this alignment: 1.15%
+Partition: 0
+Alignment Patterns: 663
+DataType: DNA
+Substitution Matrix: GTR
+Partition: 1
+Alignment Patterns: 178
+DataType: DNA
+Substitution Matrix: GTR
+Partition: 2
+Alignment Patterns: 121
+DataType: DNA
+Substitution Matrix: GTR
+Partition: 3
+Alignment Patterns: 765
+DataType: DNA
+Substitution Matrix: GTR
+Partition: 4
+Alignment Patterns: 63
+DataType: DNA
+Substitution Matrix: GTR
+Partition: 5
+Alignment Patterns: 317
+DataType: DNA
+Substitution Matrix: GTR
+Partition: 6
+Alignment Patterns: 156
+DataType: DNA
+Substitution Matrix: GTR
+Partition: 7
+Alignment Patterns: 291
+DataType: DNA
+Substitution Matrix: GTR
+raxml -m GTRCAT -f a -p 12345 -T 4 -x 12345 -N 500
+alpha: 0.106454
+Tree-Length: 0.421387
+rate A <-> C: 0.732075
+rate A <-> G: 8.050578
+rate A <-> T: 0.941731
+rate C <-> G: 0.459486
+rate C <-> T: 23.291502
+rate G <-> T: 1.000000
+freq pi(A): 0.349154
+freq pi(C): 0.230306
+freq pi(G): 0.173826
+freq pi(T): 0.246715
+alpha: 0.107183
+Tree-Length: 0.421387
+rate A <-> C: 0.379722
+rate A <-> G: 77.669719
+rate A <-> T: 1.285237
+rate C <-> G: 5.048425
+rate C <-> T: 5.317119
+rate G <-> T: 1.000000
+freq pi(A): 0.237558
+freq pi(C): 0.239717
+freq pi(G): 0.114972
+freq pi(T): 0.407753
+alpha: 0.041468
+Tree-Length: 0.421387
+rate A <-> C: 0.000100
+rate A <-> G: 36.209270
+rate A <-> T: 0.205969
+rate C <-> G: 391.491724
+rate C <-> T: 18.838260
+rate G <-> T: 1.000000
+freq pi(A): 0.213582
+freq pi(C): 0.255244
+freq pi(G): 0.128265
+freq pi(T): 0.402909
+alpha: 0.934221
+Tree-Length: 0.421387
+rate A <-> C: 0.350181
+rate A <-> G: 19.375760
+rate A <-> T: 0.339844
+rate C <-> G: 0.857068
+rate C <-> T: 11.801232
+rate G <-> T: 1.000000
+freq pi(A): 0.436059
+freq pi(C): 0.292185
+freq pi(G): 0.046657
+freq pi(T): 0.225098
+alpha: 0.020000
+Tree-Length: 0.421387
+rate A <-> C: 0.000100
+rate A <-> G: 112.904240
+rate A <-> T: 0.000100
+rate C <-> G: 0.000100
+rate C <-> T: 22.371998
+rate G <-> T: 1.000000
+freq pi(A): 0.286325
+freq pi(C): 0.207457
+freq pi(G): 0.267232
+freq pi(T): 0.238986
+alpha: 0.888885
+Tree-Length: 0.421387
+rate A <-> C: 0.185268
+rate A <-> G: 26.050896
+rate A <-> T: 0.350536
+rate C <-> G: 0.450926
+rate C <-> T: 17.143807
+rate G <-> T: 1.000000
+freq pi(A): 0.421376
+freq pi(C): 0.228800
+freq pi(G): 0.061672
+freq pi(T): 0.288152
+alpha: 40.159633
+Tree-Length: 0.421387
+rate A <-> C: 0.261054
+rate A <-> G: 2.585769
+rate A <-> T: 0.582640
+rate C <-> G: 1.451318
+rate C <-> T: 1.855607
+rate G <-> T: 1.000000
+freq pi(A): 0.381918
+freq pi(C): 0.268389
+freq pi(G): 0.100485
+freq pi(T): 0.249208
+alpha: 0.100107
+Tree-Length: 0.421387
+rate A <-> C: 0.967229
+rate A <-> G: 20.002723
+rate A <-> T: 1.346584
+rate C <-> G: 1.113171
+rate C <-> T: 26.808060
+rate G <-> T: 1.000000
+freq pi(A): 0.286288
+freq pi(C): 0.232764
+freq pi(G): 0.168301
+freq pi(T): 0.312647
+ML search took 44.750470 secs or 0.012431 hours
+Combined Bootstrap and ML search took 113.619580 secs or 0.031561 hours

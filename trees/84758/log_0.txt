@@ -1,0 +1,84 @@
+Alignment sites: 3986
+sites partition_0 = 1-973
+sites partition_1 = 974-1920
+sites partition_2 = 1921-3240
+sites partition_3 = 3241-3986
+Alignment has 9 completely undetermined sites that will be automatically removed from the input data
+Alignment has 9 completely undetermined sites that will be automatically removed from the input data
+Alignment has 9 completely undetermined sites that will be automatically removed from the input data
+Alignment has 9 completely undetermined sites that will be automatically removed from the input data
+Alignment has 9 completely undetermined sites that will be automatically removed from the input data
+Alignment has 9 completely undetermined sites that will be automatically removed from the input data
+Alignment has 9 completely undetermined sites that will be automatically removed from the input data
+Alignment has 9 completely undetermined sites that will be automatically removed from the input data
+Alignment has 9 completely undetermined sites that will be automatically removed from the input data
+Alignment has 9 completely undetermined sites that will be automatically removed from the input data
+Alignment has 1647 distinct alignment patterns
+Proportion of gaps and completely undetermined characters in this alignment: 62.90%
+Partition: 0
+Alignment Patterns: 631
+DataType: DNA
+Substitution Matrix: GTR
+Partition: 1
+Alignment Patterns: 279
+DataType: DNA
+Substitution Matrix: GTR
+Partition: 2
+Alignment Patterns: 537
+DataType: DNA
+Substitution Matrix: GTR
+Partition: 3
+Alignment Patterns: 200
+DataType: DNA
+Substitution Matrix: GTR
+raxml -m GTRCAT -f a -p 83131 -T 4 -x 85443 -N 500
+alpha: 0.399542
+Tree-Length: 2.662200
+rate A <-> C: 1.005655
+rate A <-> G: 2.686034
+rate A <-> T: 0.943376
+rate C <-> G: 0.408455
+rate C <-> T: 3.827825
+rate G <-> T: 1.000000
+freq pi(A): 0.244369
+freq pi(C): 0.204862
+freq pi(G): 0.205461
+freq pi(T): 0.345308
+alpha: 0.165586
+Tree-Length: 2.662200
+rate A <-> C: 0.387438
+rate A <-> G: 3.096849
+rate A <-> T: 1.471296
+rate C <-> G: 0.162438
+rate C <-> T: 27.422127
+rate G <-> T: 1.000000
+freq pi(A): 0.270024
+freq pi(C): 0.187793
+freq pi(G): 0.290591
+freq pi(T): 0.251593
+alpha: 0.350774
+Tree-Length: 2.662200
+rate A <-> C: 1.474367
+rate A <-> G: 6.691550
+rate A <-> T: 1.082437
+rate C <-> G: 1.169378
+rate C <-> T: 9.084669
+rate G <-> T: 1.000000
+freq pi(A): 0.236886
+freq pi(C): 0.244163
+freq pi(G): 0.248099
+freq pi(T): 0.270852
+alpha: 0.327761
+Tree-Length: 2.662200
+rate A <-> C: 1.669425
+rate A <-> G: 8.943880
+rate A <-> T: 1.563291
+rate C <-> G: 1.067012
+rate C <-> T: 15.760660
+rate G <-> T: 1.000000
+freq pi(A): 0.266043
+freq pi(C): 0.226766
+freq pi(G): 0.254640
+freq pi(T): 0.252551
+ML search took 62.405776 secs or 0.017335 hours
+Combined Bootstrap and ML search took 222.086307 secs or 0.061691 hours

@@ -1,0 +1,24 @@
+Alignment sites: 2607
+sites partition_0 = 1-1057
+sites partition_1 = 1058-1179
+sites partition_2 = 1180-1672
+sites partition_3 = 1673-2607
+Alignment has 1814 distinct alignment patterns
+Proportion of gaps and completely undetermined characters in this alignment: 48.79%
+Partition: 0
+Alignment Patterns: 805
+DataType: DNA
+Substitution Matrix: GTR
+Partition: 1
+Alignment Patterns: 32
+DataType: DNA
+Substitution Matrix: GTR
+Partition: 2
+Alignment Patterns: 447
+DataType: DNA
+Substitution Matrix: GTR
+Partition: 3
+Alignment Patterns: 530
+DataType: DNA
+Substitution Matrix: GTR
+raxml -m GTRGAMMAI -b 12345 -p 12345 -T 4 -N autoMRE
