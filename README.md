@@ -8,3 +8,10 @@ called 'RAxML Grove' currently comprising more than 100,000 inferred trees and r
 Example scripts using this database can be found [here](https://github.com/angtft/RAxMLGroveScripts).
 
 This RAxMLGrove is made available under the Open Database License: http://opendatacommons.org/licenses/odbl/1.0/. Any rights in individual contents of the database are licensed under the Database Contents License: http://opendatacommons.org/licenses/dbcl/1.0/
+
+## Citation
+
+D. Höhler, W. Pfeiffer, V. Ioannidis, H. Stockinger, A. Stamatakis (2022)
+**RAxML Grove: an empirical phylogenetic tree database**
+*Bioinformatics*, 38(6):1741–1742.
+[https://doi.org/10.1093/bioinformatics/btab863](https://doi.org/10.1093/bioinformatics/btab863)
