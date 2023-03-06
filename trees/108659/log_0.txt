@@ -1,7 +1,9 @@
+raxml -m PROTGAMMAIPMB -f a -k True -p 12345 -T 4 -x 12345 -N 1000
 Alignment sites: 299
 Alignment has 284 distinct alignment patterns
 Proportion of gaps and completely undetermined characters in this alignment: 19.86%
 Partition: 0
+invar: 0.019286
 Alignment Patterns: 284
 DataType: AA
 Substitution Matrix: PMB
@@ -217,3 +219,4 @@ freq pi(T): 0.056000
 freq pi(W): 0.016000
 freq pi(Y): 0.036000
 freq pi(V): 0.071000
+Overall execution time for full ML analysis: 1177.758342 secs or 0.327155 hours or 0.013631 days

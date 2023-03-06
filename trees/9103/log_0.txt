@@ -1,3 +1,4 @@
+raxml -m MULTICAT -f a -K True -p 12345 -T 4 -x 12345 -N 1000
 Alignment sites: 22 42
 Alignment has 40 distinct alignment patterns
 Proportion of gaps and completely undetermined characters in this alignment: 3.25%
@@ -43,3 +44,4 @@ freq pi(4): 0.010067
 freq pi(5): 0.001119
 freq pi(6): 0.002237
 freq pi(7): 0.001119
+Overall execution time for full ML analysis: 51.684638 secs or 0.014357 hours or 0.000598 days

@@ -1,3 +1,5 @@
+raxml -m PROTCATBLOSUM62F -f a -p 12345 -T 4 -x 12345 -N autoMRE
+raxml -m PROTCATBLOSUM62F -f a -p 12345 -T 4 -x 12345 -N autoMRE
 Alignment sites: 684
 Alignment has 29 completely undetermined sites that will be automatically removed from the input data
 Alignment has 29 completely undetermined sites that will be automatically removed from the input data
@@ -227,3 +229,5 @@ freq pi(T): 0.061851
 freq pi(W): 0.019301
 freq pi(Y): 0.031517
 freq pi(V): 0.067751
+Overall execution time for full ML analysis: 142.042898 secs or 0.039456 hours or 0.001644 days
+Overall execution time for full ML analysis: 114.381002 secs or 0.031773 hours or 0.001324 days

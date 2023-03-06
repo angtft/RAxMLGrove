@@ -1,3 +1,5 @@
+raxml -m GTRCAT -f a -p 12345 -T 4 -x 12345 -N 100
+raxml -m GTRCAT -c 25 -f a -p 12345 -T 4 -x 12345 -N 100
 Alignment sites: 657
 sites partition_0 = 1-657\3
 sites partition_1 = 2-657\3
@@ -52,3 +54,5 @@ freq pi(A): 0.427662
 freq pi(C): 0.083333
 freq pi(G): 0.032407
 freq pi(T): 0.456597
+Overall execution time for full ML analysis: 4.006988 secs or 0.001113 hours or 0.000046 days
+Overall execution time for full ML analysis: 0.854743 secs or 0.000237 hours or 0.000010 days

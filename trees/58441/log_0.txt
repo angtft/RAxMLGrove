@@ -1,3 +1,5 @@
+raxml-ng --all True --seed 1258 --threads 80 --workers 20 --force perf_threads
+raxml-ng --search True --seed 1258 --threads 80 --workers 20 --force perf_threads
 Partition 0: partition_0
 Model: GTR+FO+I+G4m+B
 Alignment sites / patterns: 1021 / 139
@@ -18,3 +20,5 @@ Model: GTR+FO+G4m+B
 Alignment sites / patterns: 145 / 97
 Gaps: 12.00 %
 Invariant sites: 39.31 %
+Elapsed time: 4.828 seconds
+Elapsed time: 91.214 seconds

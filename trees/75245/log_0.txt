@@ -1,3 +1,4 @@
+raxml -m GTRGAMMAX -f a -M True -p 12345 -T 4 -x 12345 -N 1000
 Alignment sites: 65 2980
 sites partition_0 = 1-251, 422-657
 sites partition_1 = 252-421, 658-817, 2556-2582, 2963-2980
@@ -69,3 +70,4 @@ freq pi(A): 0.364823
 freq pi(C): 0.164362
 freq pi(G): 0.164331
 freq pi(T): 0.306483
+Overall execution time for full ML analysis: 93.332372 secs or 0.025926 hours or 0.001080 days

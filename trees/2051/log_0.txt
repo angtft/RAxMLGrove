@@ -1,3 +1,4 @@
+raxml -m PROTCATBLOSUM62 -c 25 -f a -p 12345 -T 25 -x 12345 -N 1000
 Alignment sites: 289     12389
 sites partition_0 = 1-2166, 2689-4861
 sites partition_1 = 2167-2688
@@ -1954,3 +1955,4 @@ freq pi(T): 0.051557
 freq pi(W): 0.048358
 freq pi(Y): 0.035630
 freq pi(V): 0.036740
+Overall execution time for full ML analysis: 49075.471480 secs or 13.632075 hours or 0.568003 days

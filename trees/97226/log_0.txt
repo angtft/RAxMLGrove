@@ -1,3 +1,4 @@
+raxml -m GTRGAMMA -f a -k True -p 12345 -T 4 -x 12345 -N 1000
 Alignment sites: 23  614
 Alignment has 160 distinct alignment patterns
 Proportion of gaps and completely undetermined characters in this alignment: 3.36%
@@ -17,3 +18,4 @@ freq pi(A): 0.166363
 freq pi(C): 0.368237
 freq pi(G): 0.310180
 freq pi(T): 0.155221
+Overall execution time for full ML analysis: 11.381313 secs or 0.003161 hours or 0.000132 days

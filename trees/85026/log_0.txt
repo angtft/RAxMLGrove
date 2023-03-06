@@ -1,3 +1,4 @@
+raxml -m PROTCATDAYHOFF -c 25 -f a -k True -O True -p 12345 -T 4 -x 12345 -N 500
 Alignment sites: 449 518
 Alignment has 3 completely undetermined sites that will be automatically removed from the input data
 Alignment has 3 completely undetermined sites that will be automatically removed from the input data
@@ -230,3 +231,4 @@ freq pi(Y): 0.029916
 freq pi(V): 0.064717
 ML search took 1318.724805 secs or 0.366312 hours
 Combined Bootstrap and ML search took 3836.013449 secs or 1.065559 hours
+Overall execution time for full ML analysis: 3836.508280 secs or 1.065697 hours or 0.044404 days

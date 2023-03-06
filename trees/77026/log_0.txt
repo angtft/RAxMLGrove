@@ -1,7 +1,9 @@
+raxml -m PROTGAMMAIBLOSUM62 -f a -k True -p 12345 -T 4 -x 12345 -N 1000
 Alignment sites: 337
 Alignment has 304 distinct alignment patterns
 Proportion of gaps and completely undetermined characters in this alignment: 34.50%
 Partition: 0
+invar: 0.0001
 Alignment Patterns: 304
 DataType: AA
 Substitution Matrix: BLOSUM62
@@ -217,3 +219,4 @@ freq pi(T): 0.051000
 freq pi(W): 0.013000
 freq pi(Y): 0.032000
 freq pi(V): 0.073000
+Overall execution time for full ML analysis: 1678.410514 secs or 0.466225 hours or 0.019426 days

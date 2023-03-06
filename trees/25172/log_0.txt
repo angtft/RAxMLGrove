@@ -1,3 +1,4 @@
+raxml -m PROTGAMMAIDAYHOFFF -f a -i 10 -p 12345 -T 4 -x 12345 -N 1000
 Alignment sites: 3661
 sites partition_0 = 990-1251, 1252-1628, 1-223
 sites partition_1 = 224-274, 2237-2382, 1937-2236
@@ -8,26 +9,32 @@ sites partition_5 = 3496-3661
 Alignment has 1063 distinct alignment patterns
 Proportion of gaps and completely undetermined characters in this alignment: 0.01%
 Partition: 0
+invar: 0.549411
 Alignment Patterns: 161
 DataType: AA
 Substitution Matrix: MTMAM
 Partition: 1
+invar: 0.549411
 Alignment Patterns: 270
 DataType: AA
 Substitution Matrix: MTMAM
 Partition: 2
+invar: 0.549411
 Alignment Patterns: 52
 DataType: AA
 Substitution Matrix: MTMAM
 Partition: 3
+invar: 0.549411
 Alignment Patterns: 55
 DataType: AA
 Substitution Matrix: MTREV
 Partition: 4
+invar: 0.549411
 Alignment Patterns: 408
 DataType: AA
 Substitution Matrix: MTREV
 Partition: 5
+invar: 0.549411
 Alignment Patterns: 117
 DataType: AA
 Substitution Matrix: MTMAM
@@ -1303,3 +1310,4 @@ freq pi(T): 0.087000
 freq pi(W): 0.029300
 freq pi(Y): 0.034000
 freq pi(V): 0.042800
+Overall execution time for full ML analysis: 323.962400 secs or 0.089990 hours or 0.003750 days

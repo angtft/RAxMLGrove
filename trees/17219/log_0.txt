@@ -1,3 +1,4 @@
+raxml -m PROTGAMMAMTMAM -f a -p 12345 -P Userproteinmatrix.txt -T 4 -x 12345 -N 1000
 Alignment sites: 3627
 sites partition_0 = 1-226
 sites partition_1 = 227-293
@@ -2605,3 +2606,4 @@ freq pi(T): 0.087000
 freq pi(W): 0.029300
 freq pi(Y): 0.034000
 freq pi(V): 0.042800
+Overall execution time for full ML analysis: 199.376325 secs or 0.055382 hours or 0.002308 days

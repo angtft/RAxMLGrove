@@ -1,7 +1,11 @@
+raxml -m PROTCATIJTTF -f a -p 12345 -T 4 -x 12345 -N autoMRE
+raxml -m PROTCATIJTTF -f a -p 12345 -T 4 -x 12345 -N autoMRE
 Alignment sites: 33 206
 Alignment has 197 distinct alignment patterns
 Proportion of gaps and completely undetermined characters in this alignment: 2.71%
 Partition: 0
+invar: 0.069244
+invar: 0.069244
 Alignment Patterns: 197
 DataType: AA
 Substitution Matrix: JTT
@@ -217,3 +221,5 @@ freq pi(T): 0.060478
 freq pi(W): 0.016027
 freq pi(Y): 0.019655
 freq pi(V): 0.056396
+Overall execution time for full ML analysis: 55.924806 secs or 0.015535 hours or 0.000647 days
+Overall execution time for full ML analysis: 74.023310 secs or 0.020562 hours or 0.000857 days

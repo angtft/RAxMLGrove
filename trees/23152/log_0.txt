@@ -1,3 +1,4 @@
+raxml-ng --all True --msa_format infile --seed 12345 --threads 128 --workers 2 --force perf_threads
 Partition 0: partition_0
 Model: GTR+FC
 Alignment sites / patterns: 303012 / 38062
@@ -8,3 +9,4 @@ Partition 0: partition_0
 Rate heterogeneity: NONE
 Base frequencies (empirical): 0.288997 0.205598 0.217266 0.288138
 Substitution rates (ML): 1.076541 3.116516 1.076457 0.949109 3.294636 1.000000
+Elapsed time: 6329.123 seconds

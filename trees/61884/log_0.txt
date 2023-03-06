@@ -1,7 +1,9 @@
+raxml -m MULTIGAMMAI -f a -k True -K True -p 12345 -T 4 -x 12345 -N 1000
 Alignment sites: 11
 Alignment has 11 distinct alignment patterns
 Proportion of gaps and completely undetermined characters in this alignment: 1.82%
 Partition: 0
+invar: 0.0
 Alignment Patterns: 11
 DataType: Multi-State with 5 distinct states in use (maximum 32)
 Substitution Matrix: GTR
@@ -22,3 +24,4 @@ freq pi(1): 0.425926
 freq pi(2): 0.305556
 freq pi(3): 0.037037
 freq pi(4): 0.027778
+Overall execution time for full ML analysis: 7.573152 secs or 0.002104 hours or 0.000088 days

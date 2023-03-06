@@ -1,3 +1,4 @@
+raxml-ng --all True --threads 80 --workers 20 --force perf_threads
 Partition 0: partition_0
 Model: TVM+FO+IC+G4m
 Alignment sites / patterns: 1042 / 653
@@ -8,3 +9,4 @@ Partition 0: partition_0
 Rate heterogeneity: GAMMA (4 cats, mean),  alpha: 0.748648 (ML),  weights&rates: (0.250000,0.084595) (0.250000,0.385607) (0.250000,0.941643) (0.250000,2.588154)
 Base frequencies (ML): 0.345807 0.141815 0.156017 0.356362
 Substitution rates (ML): 0.573726 3.857437 2.988556 0.709797 3.857437 1.000000
+Elapsed time: 81.218 seconds

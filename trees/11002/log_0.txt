@@ -1,3 +1,4 @@
+raxml-ng --all True --threads 80 --workers 20 --force perf_threads --bs_cutoff 0.5
 Partition 0: partition_0
 Model: TN93ef+G4m
 Alignment sites / patterns: 2439 / 728
@@ -8,3 +9,4 @@ Partition 0: partition_0
 Rate heterogeneity: GAMMA (4 cats, mean),  alpha: 0.221804 (ML),  weights&rates: (0.250000,0.001047) (0.250000,0.047224) (0.250000,0.438141) (0.250000,3.513587)
 Base frequencies (model): 0.250000 0.250000 0.250000 0.250000
 Substitution rates (ML): 1.000000 3.234433 1.000000 1.000000 6.192195 1.000000
+Elapsed time: 118.369 seconds

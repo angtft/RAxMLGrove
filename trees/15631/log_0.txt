@@ -1,3 +1,4 @@
+raxml -m MULTICAT -f a -K True -p 12345 -T 4 -x 1000 -N 100
 Alignment sites: 142 4276
 sites partition_0 = 1-364
 sites partition_1 = 365-864
@@ -113,3 +114,4 @@ freq pi(0): 0.277792
 freq pi(1): 0.366323
 freq pi(2): 0.236544
 freq pi(3): 0.119341
+Overall execution time for full ML analysis: 82.634324 secs or 0.022954 hours or 0.000956 days

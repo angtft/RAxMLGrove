@@ -1,3 +1,4 @@
+raxml -m GTRCAT -c 25 -f a -p 12345 -T 4 -x 12345 -N 100
 Alignment sites: 89 1619
 sites partition_0 = 1-911
 sites partition_1 = 912-1619
@@ -38,3 +39,4 @@ freq pi(G): 0.254737
 freq pi(T): 0.244019
 ML search took 23.068892 secs or 0.006408 hours
 Combined Bootstrap and ML search took 42.185786 secs or 0.011718 hours
+Overall execution time for full ML analysis: 42.219183 secs or 0.011728 hours or 0.000489 days

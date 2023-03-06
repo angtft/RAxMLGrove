@@ -1,3 +1,6 @@
+raxml -m PROTCATWAG -f a -p 12345 -T 4 -x 12345 -N 500
+raxml -m PROTCATWAG -f a -p 12345 -T 4 -x 12345 -N autoMRE
+raxml -m PROTCATWAG -f a -p 12345 -T 4 -x 12345 -N 1000
 Alignment sites: 389
 Alignment has 366 distinct alignment patterns
 Proportion of gaps and completely undetermined characters in this alignment: 24.23%
@@ -217,3 +220,6 @@ freq pi(T): 0.061013
 freq pi(W): 0.014386
 freq pi(Y): 0.035274
 freq pi(V): 0.070896
+Overall execution time for full ML analysis: 40.586729 secs or 0.011274 hours or 0.000470 days
+Overall execution time for full ML analysis: 76.209395 secs or 0.021169 hours or 0.000882 days
+Overall execution time for full ML analysis: 54.573182 secs or 0.015159 hours or 0.000632 days

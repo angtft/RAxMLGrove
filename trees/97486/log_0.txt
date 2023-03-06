@@ -1,4 +1,5 @@
 raxml-ng --all True --log VERBOSE --threads 125 --workers 5 --force perf_threads
+raxml-ng --all True --log VERBOSE --threads 125 --workers 5 --force perf_threads
 Partition 0: partition_0
 Model: GTR+FO+G4m
 Alignment sites / patterns: 65437 / 64339
@@ -33,3 +34,4 @@ Partition 0: partition_0
 Rate heterogeneity: GAMMA (4 cats, mean),  alpha: 0.379296 (ML),  weights&rates: (0.250000,0.013844) (0.250000,0.166129) (0.250000,0.707868) (0.250000,3.112158)
 Base frequencies (ML): 0.202128 0.297152 0.294708 0.206012
 Substitution rates (ML): 0.959308 11.224884 0.903725 1.256923 11.047867 1.000000
+Elapsed time: 5839.098 seconds (this run) / 19534.218 seconds (total with restarts)

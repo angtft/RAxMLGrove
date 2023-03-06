@@ -1,7 +1,11 @@
+raxml -m PROTGAMMAILGF -f a -p 12345 -T 4 -x 12345 -N autoMRE
+raxml -m PROTGAMMAILGF -f a -p 12345 -T 4 -x 12345 -N autoMRE
 Alignment sites: 841
 Alignment has 787 distinct alignment patterns
 Proportion of gaps and completely undetermined characters in this alignment: 37.97%
 Partition: 0
+invar: 0.01368
+invar: 0.01368
 Alignment Patterns: 787
 DataType: AA
 Substitution Matrix: LG
@@ -220,3 +224,5 @@ freq pi(Y): 0.041493
 freq pi(V): 0.049569
 ML search took 26.558682 secs or 0.007377 hours
 Combined Bootstrap and ML search took 63.549663 secs or 0.017653 hours
+Overall execution time for full ML analysis: 63.572828 secs or 0.017659 hours or 0.000736 days
+Overall execution time for full ML analysis: 72.393287 secs or 0.020109 hours or 0.000838 days

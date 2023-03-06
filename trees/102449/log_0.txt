@@ -1,3 +1,4 @@
+raxml -m PROTCATIDAYHOFF -c 25 -f a -p 12345 -T 25 -x 12345 -N 100
 Alignment sites: 66 7216
 Alignment has 7 completely undetermined sites that will be automatically removed from the input data
 Alignment has 7 completely undetermined sites that will be automatically removed from the input data
@@ -7,6 +8,7 @@ Alignment has 7 completely undetermined sites that will be automatically removed
 Alignment has 4023 distinct alignment patterns
 Proportion of gaps and completely undetermined characters in this alignment: 40.41%
 Partition: 0
+invar: 0.108961
 Alignment Patterns: 4023
 DataType: AA
 Substitution Matrix: DAYHOFF
@@ -225,3 +227,4 @@ freq pi(Y): 0.029916
 freq pi(V): 0.064717
 ML search took 253.130629 secs or 0.070314 hours
 Combined Bootstrap and ML search took 350.871660 secs or 0.097464 hours
+Overall execution time for full ML analysis: 350.905373 secs or 0.097474 hours or 0.004061 days

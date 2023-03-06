@@ -1,3 +1,4 @@
+raxml -m GTRGAMMA -f a -j True -k True -O True -p 12345 -T 25 -x 12345 -N 1000
 Alignment sites: 330 12183
 sites partition_0 = 1-1349
 sites partition_1 = 1350-1846
@@ -159,3 +160,4 @@ freq pi(A): 0.204084
 freq pi(C): 0.297447
 freq pi(G): 0.322374
 freq pi(T): 0.176095
+Overall execution time for full ML analysis: 2357.032669 secs or 0.654731 hours or 0.027280 days

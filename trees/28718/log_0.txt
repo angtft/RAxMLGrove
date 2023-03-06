@@ -1,3 +1,5 @@
+raxml -m GTRCATX -c 25 -f a -p 12345 -T 4 -x 12345 -N 1000
+raxml -m GTRCATX -c 25 -f a -p 12345 -T 4 -x 12345 -N 1000
 Alignment sites: 85 2375
 sites partition_0 = 1-287
 sites partition_1 = 288-586
@@ -103,3 +105,5 @@ freq pi(A): 0.219703
 freq pi(C): 0.325406
 freq pi(G): 0.238903
 freq pi(T): 0.215987
+Overall execution time for full ML analysis: 217.887258 secs or 0.060524 hours or 0.002522 days
+Overall execution time for full ML analysis: 195.088698 secs or 0.054191 hours or 0.002258 days

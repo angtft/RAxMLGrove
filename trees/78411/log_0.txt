@@ -1,3 +1,4 @@
+raxml-ng --all True --seed 12345 --threads 80 --workers 20 --force perf_threads
 Partition 0: partition_0
 Model: HKY+FC+G4m{1.016}
 Alignment sites / patterns: 374 / 139
@@ -8,3 +9,4 @@ Partition 0: partition_0
 Rate heterogeneity: GAMMA (4 cats, mean),  alpha: 1.016000 (user),  weights&rates: (0.250000,0.140135) (0.250000,0.481509) (0.250000,1.002601) (0.250000,2.375755)
 Base frequencies (empirical): 0.262414 0.174968 0.197428 0.365190
 Substitution rates (ML): 1.000000 8.193810 1.000000 1.000000 8.193810 1.000000
+Elapsed time: 612.143 seconds

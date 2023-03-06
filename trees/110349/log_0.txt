@@ -1,3 +1,5 @@
+raxml -m PROTCATDAYHOFF -c 25 -f a -p 12345 -T 4 -x 12345 -N 100
+raxml -m PROTCATDAYHOFF -c 25 -f a -p 12345 -T 4 -x 12345 -N 100
 Alignment sites: 118 2162
 Alignment has 9 completely undetermined sites that will be automatically removed from the input data
 Alignment has 9 completely undetermined sites that will be automatically removed from the input data
@@ -227,3 +229,5 @@ freq pi(T): 0.058542
 freq pi(W): 0.010494
 freq pi(Y): 0.029916
 freq pi(V): 0.064717
+Overall execution time for full ML analysis: 260.731898 secs or 0.072426 hours or 0.003018 days
+Overall execution time for full ML analysis: 264.184102 secs or 0.073384 hours or 0.003058 days

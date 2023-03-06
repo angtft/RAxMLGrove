@@ -1,3 +1,5 @@
+raxml -m GTRCATX -c 25 -f a -p 12345 -T 4 -x 12345 -N autoMRE
+raxml -m GTRCATX -c 25 -f a -p 12345 -T 4 -x 12345 -N autoMRE
 Alignment sites: 1275
 sites partition_0 = 1-488\3, 2-488\3, 489-1275\3, 490-1275\3
 sites partition_1 = 3-488\3, 491-1275\3
@@ -35,3 +37,5 @@ freq pi(A): 0.298349
 freq pi(C): 0.424057
 freq pi(G): 0.056132
 freq pi(T): 0.221462
+Overall execution time for full ML analysis: 27.163115 secs or 0.007545 hours or 0.000314 days
+Overall execution time for full ML analysis: 18.318516 secs or 0.005088 hours or 0.000212 days

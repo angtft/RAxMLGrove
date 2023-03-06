@@ -1,3 +1,5 @@
+raxml -m PROTGAMMALG4M -f a -p 12345 -T 4 -x 12345 -N 100
+raxml -m PROTGAMMALG4M -f a -p 12345 -T 4 -x 12345 -N 1000
 Alignment sites: 257 254
 Alignment has 1 completely undetermined sites that will be automatically removed from the input data
 Alignment has 1 completely undetermined sites that will be automatically removed from the input data
@@ -857,3 +859,5 @@ freq pi(T): 0.049486
 freq pi(W): 0.004409
 freq pi(Y): 0.012924
 freq pi(V): 0.031963
+Overall execution time for full ML analysis: 1589.955684 secs or 0.441654 hours or 0.018402 days
+Overall execution time for full ML analysis: 716.359860 secs or 0.198989 hours or 0.008291 days

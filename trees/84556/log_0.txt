@@ -1,3 +1,4 @@
+raxml -m PROTCATBLOSUM62 -c 25 -f a -p 12345 -T 4 -x 12345 -N 100
 Alignment sites: 5275
 Alignment has 4047 distinct alignment patterns
 Proportion of gaps and completely undetermined characters in this alignment: 93.65%
@@ -220,3 +221,4 @@ freq pi(Y): 0.032000
 freq pi(V): 0.073000
 ML search took 21692.310452 secs or 6.025642 hours
 Combined Bootstrap and ML search took 26252.645930 secs or 7.292402 hours
+Overall execution time for full ML analysis: 26252.788370 secs or 7.292441 hours or 0.303852 days

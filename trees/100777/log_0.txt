@@ -1,3 +1,4 @@
+raxml -m ASC_MULTICAT -f a -K True -p 12345 -T 4 -x 12345 -N 100
 Alignment sites: 1201 30
 sites partition_0 = 1-30
 Alignment has 30 distinct alignment patterns
@@ -23,3 +24,4 @@ freq pi(1): 0.401445
 freq pi(2): 0.058078
 freq pi(3): 0.060009
 freq pi(4): 0.005972
+Overall execution time for full ML analysis: 114.762404 secs or 0.031878 hours or 0.001328 days

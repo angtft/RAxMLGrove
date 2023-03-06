@@ -1,0 +1,13 @@
+raxml-ng --all True --threads 80 --workers 20 --force perf_threads --bs_metric tbe
+raxml-ng --all True --threads 80 --workers 20 --force perf_threads --bs_metric tbe
+Partition 0: partition_0
+Model: HKY+FO+I+G4m
+Alignment sites / patterns: 639 / 263
+Gaps: 0.13 %
+Invariant sites: 59.31 %
+Optimized model parameters:
+Partition 0: partition_0
+Rate heterogeneity: GAMMA (4 cats, mean),  alpha: 0.910890 (ML),  weights&rates: (0.250000,0.118849) (0.250000,0.448226) (0.250000,0.983509) (0.250000,2.449416)
+Base frequencies (ML): 0.288046 0.349285 0.121828 0.240841
+Substitution rates (ML): 1.000000 11.318383 1.000000 1.000000 11.318383 1.000000
+Elapsed time: 332.004 seconds

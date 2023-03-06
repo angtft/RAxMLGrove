@@ -1,3 +1,4 @@
+raxml -m ASC_MULTICAT -f a -K True -p 12345 -T 25 -x 12345 -N 1000
 Alignment sites: 1192 11425
 sites partition_0 = 1-30
 sites partition_1 = 31-1422\3,32-1422\3
@@ -159,3 +160,4 @@ freq pi(A): 0.240259
 freq pi(C): 0.266927
 freq pi(G): 0.279178
 freq pi(T): 0.213635
+Overall execution time for full ML analysis: 63815.117971 secs or 17.726422 hours or 0.738601 days

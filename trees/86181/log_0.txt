@@ -1,3 +1,4 @@
+raxml -m PROTCATDAYHOFF -c 25 -f a -p 12345 -T 12 -x 12345 -N 1000
 Alignment sites: 58 4099
 sites partition_0 = 2592-2725, 1-330
 sites partition_1 = 331-729, 2726-3202, 3301-3887, 1297-1643
@@ -1306,3 +1307,4 @@ freq pi(Y): 0.044444
 freq pi(V): 0.076719
 ML search took 218.547191 secs or 0.060708 hours
 Combined Bootstrap and ML search took 1467.981866 secs or 0.407773 hours
+Overall execution time for full ML analysis: 1468.037025 secs or 0.407788 hours or 0.016991 days

@@ -1,7 +1,9 @@
+raxml -m PROTGAMMAIHIVW -f a -p 12345 -T 12 -x 12345 -N 100
 Alignment sites: 582
 Alignment has 421 distinct alignment patterns
 Proportion of gaps and completely undetermined characters in this alignment: 6.44%
 Partition: 0
+invar: 0.0001
 Alignment Patterns: 421
 DataType: AA
 Substitution Matrix: HIVW
@@ -217,3 +219,4 @@ freq pi(T): 0.081377
 freq pi(W): 0.019597
 freq pi(Y): 0.020585
 freq pi(V): 0.051564
+Overall execution time for full ML analysis: 125.751737 secs or 0.034931 hours or 0.001455 days

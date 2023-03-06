@@ -1,13 +1,16 @@
+raxml -m PROTGAMMAIDAYHOFFF -f a -p 12345 -T 4 -x 12345 -N autoMRE
 Alignment sites: 3764
 sites partition_0 = 1-1319, 1320-2930
 sites partition_1 = 2931-3766
 Alignment has 3595 distinct alignment patterns
 Proportion of gaps and completely undetermined characters in this alignment: 59.07%
 Partition: 0
+invar: 0.00367
 Alignment Patterns: 2781
 DataType: AA
 Substitution Matrix: LG
 Partition: 1
+invar: 0.00367
 Alignment Patterns: 814
 DataType: AA
 Substitution Matrix: LG
@@ -435,3 +438,4 @@ freq pi(T): 0.066502
 freq pi(W): 0.015211
 freq pi(Y): 0.041864
 freq pi(V): 0.064812
+Overall execution time for full ML analysis: 18774.161322 secs or 5.215045 hours or 0.217294 days

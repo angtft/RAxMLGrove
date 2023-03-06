@@ -1,7 +1,9 @@
+raxml -m GTRGAMMAI -f a -p 12345 -T 4 -x 12345 -N 1000
 Alignment sites: 33 1552
 Alignment has 289 distinct alignment patterns
 Proportion of gaps and completely undetermined characters in this alignment: 5.32%
 Partition: 0
+invar: 0.747092
 Alignment Patterns: 289
 DataType: DNA
 Substitution Matrix: GTR
@@ -17,3 +19,4 @@ freq pi(A): 0.217937
 freq pi(C): 0.238535
 freq pi(G): 0.341840
 freq pi(T): 0.201687
+Overall execution time for full ML analysis: 49.490709 secs or 0.013747 hours or 0.000573 days

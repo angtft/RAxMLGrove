@@ -1,3 +1,4 @@
+raxml -m PROTCATDAYHOFF -c 25 -f a -p 12345 -P Userproteinmatrix.txt -T 12 -x 12345 -N 1000
 Alignment sites: 8949
 sites partition_0 = 1-963, 1563-3733
 sites partition_1 = 964-1562
@@ -1964,3 +1965,4 @@ freq pi(T): 0.053670
 freq pi(W): 0.050687
 freq pi(Y): 0.035911
 freq pi(V): 0.037021
+Overall execution time for full ML analysis: 28976.382414 secs or 8.048995 hours or 0.335375 days

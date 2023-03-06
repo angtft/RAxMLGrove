@@ -1,3 +1,4 @@
+raxml -m PROTGAMMAIDAYHOFF -f a -p 12345 -T 12 -x 12345 -N 1000
 Alignment sites: 1327
 Alignment has 43 completely undetermined sites that will be automatically removed from the input data
 Alignment has 43 completely undetermined sites that will be automatically removed from the input data
@@ -12,6 +13,7 @@ Alignment has 43 completely undetermined sites that will be automatically remove
 Alignment has 959 distinct alignment patterns
 Proportion of gaps and completely undetermined characters in this alignment: 51.44%
 Partition: 0
+invar: 0.001316
 Alignment Patterns: 959
 DataType: AA
 Substitution Matrix: DAYHOFF
@@ -227,3 +229,4 @@ freq pi(T): 0.058542
 freq pi(W): 0.010494
 freq pi(Y): 0.029916
 freq pi(V): 0.064717
+Overall execution time for full ML analysis: 396.538424 secs or 0.110150 hours or 0.004590 days

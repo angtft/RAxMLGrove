@@ -1,3 +1,4 @@
+raxml -m PROTGAMMADAYHOFF -f a -p 12345 -T 4 -x 12345 -N 1000
 Alignment sites: 59  3886
 sites partition_0 = 1143-1370, 1635-1752, 1-341
 sites partition_1 = 857-1084, 1371-1634, 3117-3502, 342-856
@@ -869,3 +870,4 @@ freq pi(T): 0.021620
 freq pi(W): 0.019607
 freq pi(Y): 0.069312
 freq pi(V): 0.046449
+Overall execution time for full ML analysis: 2050.808598 secs or 0.569669 hours or 0.023736 days

@@ -1,0 +1,24 @@
+raxml -m GTRCAT -c 25 -f a -k True -p 12345 -T 4 -x 12345 -N 1000
+Alignment sites: 54 778
+Alignment has 490 distinct alignment patterns
+Proportion of gaps and completely undetermined characters in this alignment: 17.89%
+Partition: 0
+Alignment Patterns: 490
+DataType: DNA
+Substitution Matrix: GTR
+raxml -m GTRCAT -c 25 -f a -k True -p 12345 -T 4 -x 12345 -N 1000
+alpha: 0.357213
+Tree-Length: 3.945366
+rate A <-> C: 1.361792
+rate A <-> G: 5.227559
+rate A <-> T: 1.777005
+rate C <-> G: 0.301473
+rate C <-> T: 6.047297
+rate G <-> T: 1.000000
+freq pi(A): 0.230983
+freq pi(C): 0.226494
+freq pi(G): 0.227619
+freq pi(T): 0.314905
+ML search took 5.328384 secs or 0.001480 hours
+Combined Bootstrap and ML search took 47.991131 secs or 0.013331 hours
+Overall execution time for full ML analysis: 48.127985 secs or 0.013369 hours or 0.000557 days

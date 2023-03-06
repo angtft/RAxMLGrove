@@ -1,3 +1,4 @@
+raxml -m GTRCAT -f a -k True -p 12345 -T 4 -x 12345 -N autoMRE
 Alignment sites: 145 4995
 sites partition_0 = 1-657\3
 sites partition_1 = 2-657\3
@@ -188,3 +189,4 @@ freq pi(A): 0.280734
 freq pi(C): 0.153653
 freq pi(G): 0.216503
 freq pi(T): 0.349110
+Overall execution time for full ML analysis: 952.359081 secs or 0.264544 hours or 0.011023 days

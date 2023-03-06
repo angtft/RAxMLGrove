@@ -1,3 +1,4 @@
+raxml -m PROTCATIRTREVF -f a -k True -p 12345 -T 4 -x 12345 -N 1000
 Alignment sites: 1072
 Alignment has 1 completely undetermined sites that will be automatically removed from the input data
 Alignment has 1 completely undetermined sites that will be automatically removed from the input data
@@ -12,6 +13,7 @@ Alignment has 1 completely undetermined sites that will be automatically removed
 Alignment has 1016 distinct alignment patterns
 Proportion of gaps and completely undetermined characters in this alignment: 24.75%
 Partition: 0
+invar: 0.037496
 Alignment Patterns: 1016
 DataType: AA
 Substitution Matrix: RTREV
@@ -227,3 +229,4 @@ freq pi(T): 0.050892
 freq pi(W): 0.011914
 freq pi(Y): 0.031369
 freq pi(V): 0.074375
+Overall execution time for full ML analysis: 358.780444 secs or 0.099661 hours or 0.004153 days

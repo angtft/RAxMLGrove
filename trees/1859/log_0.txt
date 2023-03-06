@@ -1,3 +1,4 @@
+raxml -m PROTCATVT -f a -k True -p 12345 -T 4 -x 12345 -N 100
 Alignment sites: 520
 Alignment has 520 distinct alignment patterns
 Proportion of gaps and completely undetermined characters in this alignment: 22.43%
@@ -217,3 +218,4 @@ freq pi(T): 0.056776
 freq pi(W): 0.012702
 freq pi(Y): 0.032375
 freq pi(V): 0.066919
+Overall execution time for full ML analysis: 1860.046873 secs or 0.516680 hours or 0.021528 days

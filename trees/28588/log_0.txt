@@ -1,7 +1,9 @@
+raxml -m PROTCATICPREVF -f a -k True -p 12345 -T 4 -x 12345 -N autoMRE
 Alignment sites: 13 18896
 Alignment has 9034 distinct alignment patterns
 Proportion of gaps and completely undetermined characters in this alignment: 3.28%
 Partition: 0
+invar: 0.236472
 Alignment Patterns: 9034
 DataType: AA
 Substitution Matrix: CPREV
@@ -217,3 +219,4 @@ freq pi(T): 0.053445
 freq pi(W): 0.017122
 freq pi(Y): 0.034787
 freq pi(V): 0.064724
+Overall execution time for full ML analysis: 116.440655 secs or 0.032345 hours or 0.001348 days

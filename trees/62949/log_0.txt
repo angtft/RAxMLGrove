@@ -1,3 +1,4 @@
+raxml -m PROTGAMMADAYHOFF -f a -p 12345 -T 4 -x 12345 -N 1000
 Alignment sites: 91 3471
 sites partition_0 = 1-220, 221-255, 256-629, 630-1139, 1140-1356, 1357-1617, 1618-1916, 1917-2216, 2217-2323, 2324-2722, 2723-2802, 2803-3337, 3338-3471
 Alignment has 2888 distinct alignment patterns
@@ -218,3 +219,4 @@ freq pi(T): 0.086000
 freq pi(W): 0.029000
 freq pi(Y): 0.033000
 freq pi(V): 0.043000
+Overall execution time for full ML analysis: 4886.343798 secs or 1.357318 hours or 0.056555 days

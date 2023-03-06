@@ -1,3 +1,4 @@
+raxml -m PROTCATIJTT -f a -p 12345 -T 4 -x 12345 -N autoMRE
 Alignment sites: 54 283
 Alignment has 2 completely undetermined sites that will be automatically removed from the input data
 Alignment has 2 completely undetermined sites that will be automatically removed from the input data
@@ -12,6 +13,7 @@ Alignment has 2 completely undetermined sites that will be automatically removed
 Alignment has 276 distinct alignment patterns
 Proportion of gaps and completely undetermined characters in this alignment: 10.96%
 Partition: 0
+invar: 0.013627
 Alignment Patterns: 276
 DataType: AA
 Substitution Matrix: JTT
@@ -227,3 +229,4 @@ freq pi(T): 0.058565
 freq pi(W): 0.014261
 freq pi(Y): 0.032102
 freq pi(V): 0.066004
+Overall execution time for full ML analysis: 156.050704 secs or 0.043347 hours or 0.001806 days

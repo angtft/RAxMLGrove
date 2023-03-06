@@ -1,3 +1,5 @@
+raxml -m MULTIGAMMA -f a -K True -p 12345 -T 64 -x 12345 -N 1000
+raxml -m MULTIGAMMA -f a -K True -p 12345 -T 64 -x 12345 -N 1000
 Alignment sites: 41401
 sites partition_0 = 1-4541
 sites partition_1 = 4542-41401
@@ -198,3 +200,5 @@ freq pi(A): 0.296241
 freq pi(C): 0.231495
 freq pi(G): 0.229317
 freq pi(T): 0.242947
+Overall execution time for full ML analysis: 13041.312548 secs or 3.622587 hours or 0.150941 days
+Overall execution time for full ML analysis: 13295.808138 secs or 3.693280 hours or 0.153887 days

@@ -1,7 +1,9 @@
+raxml -m PROTCATIDAYHOFF -c 25 -f a -p 12345 -T 4 -x 12345 -N 1000
 Alignment sites: 975
 Alignment has 352 distinct alignment patterns
 Proportion of gaps and completely undetermined characters in this alignment: 7.51%
 Partition: 0
+invar: 0.285358
 Alignment Patterns: 352
 DataType: AA
 Substitution Matrix: DAYHOFF
@@ -220,3 +222,4 @@ freq pi(Y): 0.029916
 freq pi(V): 0.064717
 ML search took 19.755780 secs or 0.005488 hours
 Combined Bootstrap and ML search took 113.651428 secs or 0.031570 hours
+Overall execution time for full ML analysis: 113.686506 secs or 0.031580 hours or 0.001316 days

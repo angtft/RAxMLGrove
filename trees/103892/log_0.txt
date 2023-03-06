@@ -1,7 +1,9 @@
+raxml -m PROTCATILGF -f a -p 12345 -T 4 -x 12345 -N 1000
 Alignment sites: 1299
 Alignment has 885 distinct alignment patterns
 Proportion of gaps and completely undetermined characters in this alignment: 68.52%
 Partition: 0
+invar: 0.0
 Alignment Patterns: 885
 DataType: AA
 Substitution Matrix: LG
@@ -220,3 +222,4 @@ freq pi(Y): 0.039122
 freq pi(V): 0.085254
 ML search took 56.191677 secs or 0.015609 hours
 Combined Bootstrap and ML search took 193.429445 secs or 0.053730 hours
+Overall execution time for full ML analysis: 193.478508 secs or 0.053744 hours or 0.002239 days

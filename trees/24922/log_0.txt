@@ -1,7 +1,9 @@
+raxml -m PROTCATIWAG -f a -p 12345 -T 64 -x 12345 -N autoMRE
 Alignment sites: 16 210
 Alignment has 133 distinct alignment patterns
 Proportion of gaps and completely undetermined characters in this alignment: 7.95%
 Partition: 0
+invar: 0.240436
 Alignment Patterns: 133
 DataType: AA
 Substitution Matrix: WAG
@@ -217,3 +219,4 @@ freq pi(T): 0.061013
 freq pi(W): 0.014386
 freq pi(Y): 0.035274
 freq pi(V): 0.070896
+Overall execution time for full ML analysis: 70.582114 secs or 0.019606 hours or 0.000817 days

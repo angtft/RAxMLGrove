@@ -1,7 +1,9 @@
+raxml -m PROTGAMMAIMTZOAF -f a -k True -p 12345 -T 4 -x 12345 -N 500
 Alignment sites: 2147
 Alignment has 1727 distinct alignment patterns
 Proportion of gaps and completely undetermined characters in this alignment: 0.01%
 Partition: 0
+invar: 0.167978
 Alignment Patterns: 1727
 DataType: AA
 Substitution Matrix: MTZOA
@@ -217,3 +219,4 @@ freq pi(T): 0.048656
 freq pi(W): 0.027762
 freq pi(Y): 0.037138
 freq pi(V): 0.063289
+Overall execution time for full ML analysis: 2765.308484 secs or 0.768141 hours or 0.032006 days

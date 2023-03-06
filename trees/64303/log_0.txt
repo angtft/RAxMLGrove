@@ -1,3 +1,5 @@
+raxml -m MULTIGAMMA -f a -K True -p 12345 -T 4 -x 12345 -N 1000
+raxml -m MULTIGAMMA -f a -K True -p 12345 -T 4 -x 12345 -N 1000
 Alignment sites: 10 374
 Alignment has 5 completely undetermined sites that will be automatically removed from the input data
 Alignment has 5 completely undetermined sites that will be automatically removed from the input data
@@ -27,3 +29,5 @@ freq pi(0): 0.817318
 freq pi(1): 0.174529
 freq pi(2): 0.007154
 freq pi(3): 0.001000
+Overall execution time for full ML analysis: 34.237701 secs or 0.009510 hours or 0.000396 days
+Overall execution time for full ML analysis: 10.753163 secs or 0.002987 hours or 0.000124 days

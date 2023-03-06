@@ -1,3 +1,4 @@
+raxml-ng --all True --msa_format infile --threads 80 --workers 20 --force perf_threads
 Partition 0: partition_0
 Model: GTR+FO+G4m
 Alignment sites / patterns: 8088 / 865
@@ -8,3 +9,4 @@ Partition 0: partition_0
 Rate heterogeneity: GAMMA (4 cats, mean),  alpha: 0.223028 (ML),  weights&rates: (0.250000,0.001083) (0.250000,0.048027) (0.250000,0.441058) (0.250000,3.509832)
 Base frequencies (ML): 0.238203 0.219415 0.292688 0.249695
 Substitution rates (ML): 0.416811 1.163040 1.160517 0.369097 2.757859 1.000000
+Elapsed time: 185.641 seconds

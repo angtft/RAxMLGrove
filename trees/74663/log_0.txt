@@ -1,3 +1,7 @@
+raxml -m PROTCATLG -f a -p 12345 -T 4 -x 12345 -N autoMRE
+raxml -m PROTCATJTT -f a -p 12345 -T 4 -x 12345 -N autoMRE
+raxml -m PROTCATJTT -f a -p 12345 -T 4 -x 12345 -N autoMRE
+raxml -m PROTCATLG -f a -k True -p 12345 -T 4 -x 12345 -N autoMRE
 Alignment sites: 21 2194
 sites partition_0 = 1-224
 sites partition_1 = 225-2194
@@ -435,3 +439,7 @@ freq pi(T): 0.302124
 freq pi(W): 0.001000
 freq pi(Y): 0.001000
 freq pi(V): 0.001000
+Overall execution time for full ML analysis: 234.211184 secs or 0.065059 hours or 0.002711 days
+Overall execution time for full ML analysis: 189.992157 secs or 0.052776 hours or 0.002199 days
+Overall execution time for full ML analysis: 228.996153 secs or 0.063610 hours or 0.002650 days
+Overall execution time for full ML analysis: 187.519778 secs or 0.052089 hours or 0.002170 days

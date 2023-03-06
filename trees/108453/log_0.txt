@@ -1,7 +1,9 @@
+raxml -m GTRCATI -f a -p 12345 -T 4 -x 12345 -N autoMRE
 Alignment sites: 66 483
 Alignment has 176 distinct alignment patterns
 Proportion of gaps and completely undetermined characters in this alignment: 4.15%
 Partition: 0
+invar: 0.342614
 Alignment Patterns: 176
 DataType: DNA
 Substitution Matrix: GTR
@@ -17,3 +19,4 @@ freq pi(A): 0.296884
 freq pi(C): 0.248936
 freq pi(G): 0.216338
 freq pi(T): 0.237841
+Overall execution time for full ML analysis: 25.699662 secs or 0.007139 hours or 0.000297 days

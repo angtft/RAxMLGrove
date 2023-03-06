@@ -1,3 +1,5 @@
+raxml -m GTRGAMMA -f a -k True -p 12345 -T 4 -x 12345 -N 100
+raxml -m GTRGAMMA -f a -k True -p 12345 -T 4 -x 12345 -N 1000
 Alignment sites: 4461
 Alignment has 5 completely undetermined sites that will be automatically removed from the input data
 Alignment has 5 completely undetermined sites that will be automatically removed from the input data
@@ -27,3 +29,5 @@ freq pi(A): 0.295510
 freq pi(C): 0.202840
 freq pi(G): 0.217895
 freq pi(T): 0.283754
+Overall execution time for full ML analysis: 617.087197 secs or 0.171413 hours or 0.007142 days
+Overall execution time for full ML analysis: 38.584588 secs or 0.010718 hours or 0.000447 days

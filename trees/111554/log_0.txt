@@ -1,0 +1,80 @@
+raxml -m GTRGAMMAI -f a -k True -p 12345 -T 4 -x 12345 -N 1000
+Alignment sites: 125 3050
+sites partition_0 = 1-401
+sites partition_1 = 402-1343
+sites partition_2 = 1344-2181
+sites partition_3 = 2182-3050
+Alignment has 1030 distinct alignment patterns
+Proportion of gaps and completely undetermined characters in this alignment: 22.59%
+Partition: 0
+invar: 0.606464
+Alignment Patterns: 189
+DataType: DNA
+Substitution Matrix: GTR
+Partition: 1
+invar: 0.606464
+Alignment Patterns: 212
+DataType: DNA
+Substitution Matrix: GTR
+Partition: 2
+invar: 0.606464
+Alignment Patterns: 268
+DataType: DNA
+Substitution Matrix: GTR
+Partition: 3
+invar: 0.606464
+Alignment Patterns: 361
+DataType: DNA
+Substitution Matrix: GTR
+raxml -m GTRGAMMAI -f a -k True -p 12345 -T 4 -x 12345 -N 1000
+alpha: 0.887718
+Tree-Length: 3.094793
+rate A <-> C: 2.139482
+rate A <-> G: 3.430108
+rate A <-> T: 2.535033
+rate C <-> G: 0.523030
+rate C <-> T: 5.033198
+rate G <-> T: 1.000000
+freq pi(A): 0.234656
+freq pi(C): 0.226641
+freq pi(G): 0.231783
+freq pi(T): 0.306920
+alpha: 0.123436
+Tree-Length: 3.094793
+rate A <-> C: 4.118953
+rate A <-> G: 6.593191
+rate A <-> T: 2.728558
+rate C <-> G: 1.549713
+rate C <-> T: 10.350178
+rate G <-> T: 1.000000
+freq pi(A): 0.263370
+freq pi(C): 0.200914
+freq pi(G): 0.259136
+freq pi(T): 0.276580
+alpha: 0.258401
+Tree-Length: 3.094793
+rate A <-> C: 0.890132
+rate A <-> G: 5.914353
+rate A <-> T: 1.970300
+rate C <-> G: 0.320189
+rate C <-> T: 14.076399
+rate G <-> T: 1.000000
+freq pi(A): 0.248913
+freq pi(C): 0.208819
+freq pi(G): 0.301568
+freq pi(T): 0.240700
+alpha: 0.612604
+Tree-Length: 3.094793
+rate A <-> C: 0.501246
+rate A <-> G: 1.755533
+rate A <-> T: 1.188959
+rate C <-> G: 0.580241
+rate C <-> T: 6.442617
+rate G <-> T: 1.000000
+freq pi(A): 0.216237
+freq pi(C): 0.328432
+freq pi(G): 0.255152
+freq pi(T): 0.200179
+ML search took 109.741922 secs or 0.030484 hours
+Combined Bootstrap and ML search took 386.298837 secs or 0.107305 hours
+Overall execution time for full ML analysis: 386.633355 secs or 0.107398 hours or 0.004475 days

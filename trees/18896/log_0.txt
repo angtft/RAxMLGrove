@@ -1,3 +1,5 @@
+raxml -m PROTGAMMAWAG -f a -k True -p 12345 -T 4 -x 12345 -N 1000
+raxml -m PROTGAMMAWAG -f a -k True -p 12345 -T 4 -x 12345 -N 1000
 Alignment sites: 5173
 Alignment has 4661 distinct alignment patterns
 Proportion of gaps and completely undetermined characters in this alignment: 81.70%
@@ -217,3 +219,5 @@ freq pi(T): 0.061013
 freq pi(W): 0.014386
 freq pi(Y): 0.035274
 freq pi(V): 0.070896
+Overall execution time for full ML analysis: 6866.502780 secs or 1.907362 hours or 0.079473 days
+Overall execution time for full ML analysis: 6913.946096 secs or 1.920541 hours or 0.080023 days

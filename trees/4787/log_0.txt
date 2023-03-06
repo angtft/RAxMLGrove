@@ -1,3 +1,5 @@
+raxml -m PROTCATLG -c 25 -f a -p 12345 -T 4 -x 12345 -N 1000
+raxml -m PROTCATLG -f a -p 12345 -T 4 -x 12345 -N 1000
 Alignment sites: 239 2748
 Alignment has 1 completely undetermined sites that will be automatically removed from the input data
 Alignment has 1 completely undetermined sites that will be automatically removed from the input data
@@ -227,3 +229,5 @@ freq pi(T): 0.053287
 freq pi(W): 0.012066
 freq pi(Y): 0.034155
 freq pi(V): 0.069146
+Overall execution time for full ML analysis: 5114.863091 secs or 1.420795 hours or 0.059200 days
+Overall execution time for full ML analysis: 5188.238894 secs or 1.441177 hours or 0.060049 days

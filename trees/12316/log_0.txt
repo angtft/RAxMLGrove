@@ -1,3 +1,5 @@
+raxml -m GTRGAMMAX -f a -p 12345 -T 4 -x 12345 -N autoMRE
+raxml -m GTRGAMMA -f a -p 12345 -T 4 -x 12345 -N autoMRE
 Alignment sites: 108 3068
 sites partition_0 = 1-1278\3
 sites partition_1 = 2-1278\3
@@ -188,3 +190,5 @@ freq pi(A): 0.180545
 freq pi(C): 0.295301
 freq pi(G): 0.363953
 freq pi(T): 0.160201
+Overall execution time for full ML analysis: 460.455562 secs or 0.127904 hours or 0.005329 days
+Overall execution time for full ML analysis: 429.174974 secs or 0.119215 hours or 0.004967 days

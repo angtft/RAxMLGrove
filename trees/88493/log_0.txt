@@ -1,11 +1,15 @@
+raxml-ng --all True --threads 80 --workers 20 --force perf_threads --bs_metric fbp
 raxml-ng --all True --threads 80 --workers 20 --force perf_threads --bs_metric fbp,tbe
 Partition 0: partition_0
+invar: tbe]
 Model: TIM3+G4m
 Alignment sites / patterns: 1447 / 641
 Gaps: 5.19 %
 Invariant sites: 60.95 %
 Optimized model parameters:
 Partition 0: partition_0
+invar: tbe]
 Rate heterogeneity: GAMMA (4 cats, mean),  alpha: 0.238301 (ML),  weights&rates: (0.250000,0.001611) (0.250000,0.058381) (0.250000,0.476156) (0.250000,3.463853)
 Base frequencies (model): 0.250000 0.250000 0.250000 0.250000
 Substitution rates (ML): 0.781569 2.228492 1.000000 0.781569 2.647123 1.000000
+Elapsed time: 210.391 seconds

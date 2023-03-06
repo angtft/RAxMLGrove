@@ -1,3 +1,5 @@
+raxml -m GTRGAMMA -f a -p 12345 -T 4 -x 12345 -N 1000
+raxml -m GTRGAMMA -f a -p 12345 -T 4 -x 12345 -N 1000
 Alignment sites: 142 3606
 Alignment has 665 completely undetermined sites that will be automatically removed from the input data
 Alignment has 665 completely undetermined sites that will be automatically removed from the input data
@@ -30,3 +32,5 @@ freq pi(G): 0.264012
 freq pi(T): 0.225798
 ML search took 56.323243 secs or 0.015645 hours
 Combined Bootstrap and ML search took 234.932858 secs or 0.065259 hours
+Overall execution time for full ML analysis: 235.123067 secs or 0.065312 hours or 0.002721 days
+Overall execution time for full ML analysis: 206.732866 secs or 0.057426 hours or 0.002393 days

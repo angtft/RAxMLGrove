@@ -1,10 +1,16 @@
+raxml-ng --all True --msa_format infile --seed 12345 --threads 80 --workers 20 --force perf_threads --bs_metric fbp
+raxml-ng --all True --msa_format infile --seed 12345 --threads 80 --workers 20 --force perf_threads --bs_metric tbe
 Partition 0: partition_0
+invar: tbe]
 Model: GTR+FC
 Alignment sites / patterns: 28065 / 1039
 Gaps: 0.25 %
 Invariant sites: 94.69 %
 Optimized model parameters:
 Partition 0: partition_0
+invar: tbe]
 Rate heterogeneity: NONE
 Base frequencies (empirical): 0.248048 0.190793 0.226424 0.334735
 Substitution rates (ML): 1.141581 2.159642 0.364540 0.268773 6.169571 1.000000
+Elapsed time: 1012.427 seconds
+Elapsed time: 1009.616 seconds

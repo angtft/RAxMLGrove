@@ -1,7 +1,9 @@
+raxml -m PROTGAMMAIDAYHOFF -f a -p 12345 -T 4 -x 12345 -N 1000
 Alignment sites: 110
 Alignment has 108 distinct alignment patterns
 Proportion of gaps and completely undetermined characters in this alignment: 26.17%
 Partition: 0
+invar: 0.0
 Alignment Patterns: 108
 DataType: AA
 Substitution Matrix: DAYHOFF
@@ -217,3 +219,4 @@ freq pi(T): 0.058542
 freq pi(W): 0.010494
 freq pi(Y): 0.029916
 freq pi(V): 0.064717
+Overall execution time for full ML analysis: 192.459270 secs or 0.053461 hours or 0.002228 days

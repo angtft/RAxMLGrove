@@ -1,0 +1,24 @@
+raxml -m GTRGAMMA -f a -k True -p 12345 -T 4 -x 12345 -N 1000
+Alignment sites: 37 349
+Alignment has 237 distinct alignment patterns
+Proportion of gaps and completely undetermined characters in this alignment: 5.56%
+Partition: 0
+Alignment Patterns: 237
+DataType: DNA
+Substitution Matrix: GTR
+raxml -m GTRGAMMA -f a -k True -p 12345 -T 4 -x 12345 -N 1000
+alpha: 0.796591
+Tree-Length: 1.852776
+rate A <-> C: 1.181445
+rate A <-> G: 2.848614
+rate A <-> T: 1.169847
+rate C <-> G: 1.008901
+rate C <-> T: 3.651226
+rate G <-> T: 1.000000
+freq pi(A): 0.234440
+freq pi(C): 0.328823
+freq pi(G): 0.202624
+freq pi(T): 0.234112
+ML search took 1.631572 secs or 0.000453 hours
+Combined Bootstrap and ML search took 19.809569 secs or 0.005503 hours
+Overall execution time for full ML analysis: 19.910966 secs or 0.005531 hours or 0.000230 days

@@ -1,3 +1,4 @@
+raxml -m PROTCATIBLOSUM62F -f a -p 12345 -T 4 -x 12345 -N autoMRE
 Alignment sites: 1286
 Alignment has 29 completely undetermined sites that will be automatically removed from the input data
 Alignment has 29 completely undetermined sites that will be automatically removed from the input data
@@ -12,6 +13,7 @@ Alignment has 29 completely undetermined sites that will be automatically remove
 Alignment has 1246 distinct alignment patterns
 Proportion of gaps and completely undetermined characters in this alignment: 70.57%
 Partition: 0
+invar: 0.000793
 Alignment Patterns: 1246
 DataType: AA
 Substitution Matrix: BLOSUM62
@@ -227,3 +229,4 @@ freq pi(T): 0.052950
 freq pi(W): 0.024110
 freq pi(Y): 0.039959
 freq pi(V): 0.060324
+Overall execution time for full ML analysis: 2531.430401 secs or 0.703175 hours or 0.029299 days

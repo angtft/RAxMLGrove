@@ -1,3 +1,5 @@
+raxml -m MULTIGAMMA -f a -k True -K True -O True -p 12345 -T 4 -x 12345 -N 1000
+raxml -m MULTIGAMMA -f a -k True -K True -O True -p 12345 -T 4 -x 12345 -N 1000
 Alignment sites: 140696
 Alignment has 124695 distinct alignment patterns
 Proportion of gaps and completely undetermined characters in this alignment: 22.13%
@@ -17,3 +19,5 @@ freq pi(0): 0.246274
 freq pi(1): 0.254484
 freq pi(2): 0.253577
 freq pi(3): 0.245665
+Overall execution time for full ML analysis: 41189.126167 secs or 11.441424 hours or 0.476726 days
+Overall execution time for full ML analysis: 41188.307524 secs or 11.441197 hours or 0.476717 days

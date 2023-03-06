@@ -1,7 +1,9 @@
+raxml -m PROTCATIMTREV -f a -k True -p 12345 -T 4 -x 12345 -N 200
 Alignment sites: 4424
 Alignment has 4161 distinct alignment patterns
 Proportion of gaps and completely undetermined characters in this alignment: 17.95%
 Partition: 0
+invar: 0.071077
 Alignment Patterns: 4161
 DataType: AA
 Substitution Matrix: MTREV
@@ -217,3 +219,4 @@ freq pi(T): 0.086000
 freq pi(W): 0.029000
 freq pi(Y): 0.033000
 freq pi(V): 0.043000
+Overall execution time for full ML analysis: 572.063565 secs or 0.158907 hours or 0.006621 days

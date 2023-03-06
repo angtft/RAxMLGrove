@@ -1,3 +1,5 @@
+raxml -m GTRCAT -c 25 -f a -p 12345 -T 4 -x 12345 -N 1000
+raxml -m GTRCAT -c 25 -f a -p 12345 -T 4 -x 12345 -N 1000
 Alignment sites: 706 1093
 Alignment has 9 completely undetermined sites that will be automatically removed from the input data
 Alignment has 9 completely undetermined sites that will be automatically removed from the input data
@@ -27,3 +29,5 @@ freq pi(A): 0.341598
 freq pi(C): 0.188351
 freq pi(G): 0.178852
 freq pi(T): 0.291199
+Overall execution time for full ML analysis: 1481.634360 secs or 0.411565 hours or 0.017149 days
+Overall execution time for full ML analysis: 1249.941053 secs or 0.347206 hours or 0.014467 days

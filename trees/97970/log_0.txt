@@ -1,3 +1,4 @@
+raxml -m PROTCATDAYHOFF -c 25 -f a -p 12345 -T 4 -x 12345 -N autoMRE
 Alignment sites: 81 1455
 sites partition_0 = 1-290
 sites partition_1 = 291-790
@@ -52,3 +53,4 @@ freq pi(A): 0.225237
 freq pi(C): 0.306480
 freq pi(G): 0.229394
 freq pi(T): 0.238890
+Overall execution time for full ML analysis: 171.252885 secs or 0.047570 hours or 0.001982 days

@@ -1,3 +1,4 @@
+raxml -m PROTGAMMAIWAGF -f a -k True -p 12345 -T 4 -x 12345 -N 100
 Alignment sites: 768
 Alignment has 63 completely undetermined sites that will be automatically removed from the input data
 Alignment has 63 completely undetermined sites that will be automatically removed from the input data
@@ -12,6 +13,7 @@ Alignment has 63 completely undetermined sites that will be automatically remove
 Alignment has 676 distinct alignment patterns
 Proportion of gaps and completely undetermined characters in this alignment: 52.40%
 Partition: 0
+invar: 0.005296
 Alignment Patterns: 676
 DataType: AA
 Substitution Matrix: WAG
@@ -227,3 +229,4 @@ freq pi(T): 0.068055
 freq pi(W): 0.003662
 freq pi(Y): 0.002064
 freq pi(V): 0.067925
+Overall execution time for full ML analysis: 1681.244065 secs or 0.467012 hours or 0.019459 days

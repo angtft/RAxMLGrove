@@ -1,3 +1,5 @@
+raxml -m PROTGAMMAGTR -f a -p 12345 -T 12 -x 12345 -N 100
+raxml -m PROTGAMMAAUTO -f a -p 12345 -T 12 -x 12345 -N 100
 Alignment sites: 9429
 sites partition_0 = 1 - 927
 sites partition_1 = 928 - 1105
@@ -6728,3 +6730,5 @@ freq pi(T): 0.061013
 freq pi(W): 0.014386
 freq pi(Y): 0.035274
 freq pi(V): 0.070896
+Overall execution time for full ML analysis: 1897.154459 secs or 0.526987 hours or 0.021958 days
+Overall execution time for full ML analysis: 1913.617230 secs or 0.531560 hours or 0.022148 days

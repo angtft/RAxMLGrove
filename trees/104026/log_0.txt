@@ -1,3 +1,5 @@
+raxml -m PROTCATDAYHOFF -c 25 -f a -p 12345 -T 4 -x 12345 -N 1000
+raxml -m PROTCATDAYHOFF -c 25 -f a -p 12345 -T 4 -x 12345 -N 1000
 Alignment sites: 1097
 Alignment has 671 distinct alignment patterns
 Proportion of gaps and completely undetermined characters in this alignment: 47.80%
@@ -220,3 +222,5 @@ freq pi(Y): 0.029916
 freq pi(V): 0.064717
 ML search took 85.169205 secs or 0.023658 hours
 Combined Bootstrap and ML search took 374.026631 secs or 0.103896 hours
+Overall execution time for full ML analysis: 374.130791 secs or 0.103925 hours or 0.004330 days
+Overall execution time for full ML analysis: 319.831198 secs or 0.088842 hours or 0.003702 days

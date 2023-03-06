@@ -1,3 +1,4 @@
+raxml -m PROTCATIWAG -c 25 -f a -p 12345 -T 4 -x 12345 -N 1000
 Alignment sites: 72   173
 Alignment has 1 completely undetermined sites that will be automatically removed from the input data
 Alignment has 1 completely undetermined sites that will be automatically removed from the input data
@@ -12,6 +13,7 @@ Alignment has 1 completely undetermined sites that will be automatically removed
 Alignment has 167 distinct alignment patterns
 Proportion of gaps and completely undetermined characters in this alignment: 21.86%
 Partition: 0
+invar: 0.082268
 Alignment Patterns: 167
 DataType: AA
 Substitution Matrix: WAG
@@ -227,3 +229,4 @@ freq pi(T): 0.061013
 freq pi(W): 0.014386
 freq pi(Y): 0.035274
 freq pi(V): 0.070896
+Overall execution time for full ML analysis: 365.379418 secs or 0.101494 hours or 0.004229 days

@@ -1,7 +1,9 @@
+raxml -m PROTGAMMAIWAGF -f a -p 12345 -T 4 -x 12345 -N 1000
 Alignment sites: 152
 Alignment has 152 distinct alignment patterns
 Proportion of gaps and completely undetermined characters in this alignment: 19.98%
 Partition: 0
+invar: 0.006488
 Alignment Patterns: 152
 DataType: AA
 Substitution Matrix: WAG
@@ -217,3 +219,4 @@ freq pi(T): 0.051579
 freq pi(W): 0.025872
 freq pi(Y): 0.048893
 freq pi(V): 0.069119
+Overall execution time for full ML analysis: 771.558834 secs or 0.214322 hours or 0.008930 days

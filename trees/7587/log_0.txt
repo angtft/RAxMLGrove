@@ -1,3 +1,4 @@
+raxml -m GTRCAT -c 25 -f a -k True -p 12345 -T 4 -x 12345 -N 1000
 Alignment sites: 110 1642
 Alignment has 441 distinct alignment patterns
 Proportion of gaps and completely undetermined characters in this alignment: 60.82%
@@ -17,3 +18,4 @@ freq pi(A): 0.253022
 freq pi(C): 0.215581
 freq pi(G): 0.221609
 freq pi(T): 0.309788
+Overall execution time for full ML analysis: 108.413365 secs or 0.030115 hours or 0.001255 days
