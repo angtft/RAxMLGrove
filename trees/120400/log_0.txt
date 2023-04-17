@@ -1,0 +1,11 @@
+raxml-ng --all True --threads 120 --workers 10 --force perf_threads --bs_metric fbp,tbe
+Partition 0: partition_0
+Model: TVM+FO+G4m
+Alignment sites / patterns: 69471 / 35317
+Gaps: 17.51 %
+Invariant sites: 58.10 %
+Optimized model parameters:
+Partition 0: partition_0
+Rate heterogeneity: GAMMA (4 cats, mean),  alpha: 0.326953 (ML),  weights&rates: (0.250000,0.007734) (0.250000,0.125560) (0.250000,0.638410) (0.250000,3.228296)
+Base frequencies (ML): 0.288193 0.208647 0.210473 0.292687
+Substitution rates (ML): 1.070983 4.815653 1.568185 1.232640 4.815653 1.000000

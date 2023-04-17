@@ -1,0 +1,49 @@
+Alignment sites: 78 864
+sites partition_0 = 1-450
+sites partition_1 = 451-864
+Alignment has 2 completely undetermined sites that will be automatically removed from the input data
+Alignment has 2 completely undetermined sites that will be automatically removed from the input data
+Alignment has 2 completely undetermined sites that will be automatically removed from the input data
+Alignment has 2 completely undetermined sites that will be automatically removed from the input data
+Alignment has 2 completely undetermined sites that will be automatically removed from the input data
+Alignment has 2 completely undetermined sites that will be automatically removed from the input data
+Alignment has 2 completely undetermined sites that will be automatically removed from the input data
+Alignment has 2 completely undetermined sites that will be automatically removed from the input data
+Alignment has 2 completely undetermined sites that will be automatically removed from the input data
+Alignment has 2 completely undetermined sites that will be automatically removed from the input data
+Alignment has 153 distinct alignment patterns
+Proportion of gaps and completely undetermined characters in this alignment: 1.52%
+Partition: 0
+Alignment Patterns: 93
+DataType: DNA
+Substitution Matrix: GTR
+Partition: 1
+Alignment Patterns: 60
+DataType: DNA
+Substitution Matrix: GTR
+raxml -m GTRGAMMA -f a -p 12345 -T 4 -x 12345 -N 1000
+alpha: 0.020000
+Tree-Length: 0.317835
+rate A <-> C: 1.130210
+rate A <-> G: 4.693217
+rate A <-> T: 0.894797
+rate C <-> G: 0.878006
+rate C <-> T: 5.453933
+rate G <-> T: 1.000000
+freq pi(A): 0.227390
+freq pi(C): 0.238523
+freq pi(G): 0.294416
+freq pi(T): 0.239671
+alpha: 0.057422
+Tree-Length: 0.317835
+rate A <-> C: 0.748977
+rate A <-> G: 1.081670
+rate A <-> T: 0.362998
+rate C <-> G: 0.276281
+rate C <-> T: 2.828455
+rate G <-> T: 1.000000
+freq pi(A): 0.215448
+freq pi(C): 0.299152
+freq pi(G): 0.213005
+freq pi(T): 0.272396
+Overall execution time for full ML analysis: 27.358127 secs or 0.007599 hours or 0.000317 days

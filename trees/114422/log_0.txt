@@ -1,0 +1,83 @@
+Alignment sites: 87 2456
+sites partition_0 = 1-524
+sites partition_1 = 525-1331
+sites partition_2 = 1332-1855
+sites partition_3 = 1856-2456
+Alignment has 11 completely undetermined sites that will be automatically removed from the input data
+Alignment has 11 completely undetermined sites that will be automatically removed from the input data
+Alignment has 11 completely undetermined sites that will be automatically removed from the input data
+Alignment has 11 completely undetermined sites that will be automatically removed from the input data
+Alignment has 11 completely undetermined sites that will be automatically removed from the input data
+Alignment has 11 completely undetermined sites that will be automatically removed from the input data
+Alignment has 11 completely undetermined sites that will be automatically removed from the input data
+Alignment has 11 completely undetermined sites that will be automatically removed from the input data
+Alignment has 11 completely undetermined sites that will be automatically removed from the input data
+Alignment has 11 completely undetermined sites that will be automatically removed from the input data
+Alignment has 1018 distinct alignment patterns
+Proportion of gaps and completely undetermined characters in this alignment: 51.63%
+Partition: 0
+Alignment Patterns: 253
+DataType: DNA
+Substitution Matrix: GTR
+Partition: 1
+Alignment Patterns: 100
+DataType: DNA
+Substitution Matrix: GTR
+Partition: 2
+Alignment Patterns: 276
+DataType: DNA
+Substitution Matrix: GTR
+Partition: 3
+Alignment Patterns: 389
+DataType: DNA
+Substitution Matrix: GTR
+raxml -m GTRGAMMA -f a -p 12345 -T 4 -x 12345 -N 1000
+alpha: 0.291760
+Tree-Length: 4.735226
+rate A <-> C: 2.705816
+rate A <-> G: 3.779294
+rate A <-> T: 2.181580
+rate C <-> G: 0.697393
+rate C <-> T: 7.395733
+rate G <-> T: 1.000000
+freq pi(A): 0.226943
+freq pi(C): 0.282226
+freq pi(G): 0.252430
+freq pi(T): 0.238401
+alpha: 0.078670
+Tree-Length: 4.735226
+rate A <-> C: 1.040267
+rate A <-> G: 45.185571
+rate A <-> T: 1.505592
+rate C <-> G: 0.767616
+rate C <-> T: 7.498358
+rate G <-> T: 1.000000
+freq pi(A): 0.248744
+freq pi(C): 0.223185
+freq pi(G): 0.305275
+freq pi(T): 0.222796
+alpha: 0.463987
+Tree-Length: 4.735226
+rate A <-> C: 1.792522
+rate A <-> G: 2.273213
+rate A <-> T: 1.338932
+rate C <-> G: 0.685560
+rate C <-> T: 3.904712
+rate G <-> T: 1.000000
+freq pi(A): 0.230795
+freq pi(C): 0.291748
+freq pi(G): 0.221192
+freq pi(T): 0.256266
+alpha: 0.360270
+Tree-Length: 4.735226
+rate A <-> C: 1.001418
+rate A <-> G: 3.206984
+rate A <-> T: 0.704530
+rate C <-> G: 0.628498
+rate C <-> T: 3.218757
+rate G <-> T: 1.000000
+freq pi(A): 0.197685
+freq pi(C): 0.278241
+freq pi(G): 0.249774
+freq pi(T): 0.274299
+Overall execution time for full ML analysis: 201.578649 secs or 0.055994 hours or 0.002333 days

@@ -1,0 +1,49 @@
+Alignment sites: 2123
+sites partition_0 = 1-927
+sites partition_1 = 928-2123
+Alignment has 8 completely undetermined sites that will be automatically removed from the input data
+Alignment has 8 completely undetermined sites that will be automatically removed from the input data
+Alignment has 8 completely undetermined sites that will be automatically removed from the input data
+Alignment has 8 completely undetermined sites that will be automatically removed from the input data
+Alignment has 8 completely undetermined sites that will be automatically removed from the input data
+Alignment has 8 completely undetermined sites that will be automatically removed from the input data
+Alignment has 8 completely undetermined sites that will be automatically removed from the input data
+Alignment has 8 completely undetermined sites that will be automatically removed from the input data
+Alignment has 8 completely undetermined sites that will be automatically removed from the input data
+Alignment has 8 completely undetermined sites that will be automatically removed from the input data
+Alignment has 1155 distinct alignment patterns
+Proportion of gaps and completely undetermined characters in this alignment: 41.75%
+Partition: 0
+Alignment Patterns: 488
+DataType: DNA
+Substitution Matrix: GTR
+Partition: 1
+Alignment Patterns: 667
+DataType: DNA
+Substitution Matrix: GTR
+raxml -m GTRGAMMA -f a -p 12345 -T 4 -x 12345 -N 100
+alpha: 0.833379
+Tree-Length: 1.120463
+rate A <-> C: 0.750750
+rate A <-> G: 0.947151
+rate A <-> T: 0.299508
+rate C <-> G: 0.428699
+rate C <-> T: 1.318073
+rate G <-> T: 1.000000
+freq pi(A): 0.366514
+freq pi(C): 0.135762
+freq pi(G): 0.152246
+freq pi(T): 0.345478
+alpha: 0.589742
+Tree-Length: 1.120463
+rate A <-> C: 0.818740
+rate A <-> G: 1.096914
+rate A <-> T: 0.308532
+rate C <-> G: 0.527530
+rate C <-> T: 1.290270
+rate G <-> T: 1.000000
+freq pi(A): 0.366719
+freq pi(C): 0.168598
+freq pi(G): 0.155366
+freq pi(T): 0.309316
+Overall execution time for full ML analysis: 46.858576 secs or 0.013016 hours or 0.000542 days

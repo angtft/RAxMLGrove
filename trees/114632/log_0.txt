@@ -1,0 +1,56 @@
+Alignment sites: 1201 658
+sites partition_0 = 1-658\3
+sites partition_1 = 2-658\3
+sites partition_2 = 3-658\3
+Alignment has 575 distinct alignment patterns
+Proportion of gaps and completely undetermined characters in this alignment: 2.95%
+Partition: 0
+Alignment Patterns: 220
+DataType: DNA
+Substitution Matrix: GTR
+Partition: 1
+Alignment Patterns: 194
+DataType: DNA
+Substitution Matrix: GTR
+Partition: 2
+Alignment Patterns: 161
+DataType: DNA
+Substitution Matrix: GTR
+raxml -m GTRCAT -c 25 -f a -p 12345 -T 4 -x 12345 -N 1000
+alpha: 1.558807
+Tree-Length: 215.879517
+rate A <-> C: 0.126427
+rate A <-> G: 4.214823
+rate A <-> T: 0.112462
+rate C <-> G: 0.299653
+rate C <-> T: 2.444574
+rate G <-> T: 1.000000
+freq pi(A): 0.480617
+freq pi(C): 0.127677
+freq pi(G): 0.034795
+freq pi(T): 0.356911
+alpha: 0.158773
+Tree-Length: 215.879517
+rate A <-> C: 0.863556
+rate A <-> G: 4.152680
+rate A <-> T: 2.014485
+rate C <-> G: 0.464119
+rate C <-> T: 223.548110
+rate G <-> T: 1.000000
+freq pi(A): 0.269993
+freq pi(C): 0.179881
+freq pi(G): 0.311048
+freq pi(T): 0.239079
+alpha: 0.062842
+Tree-Length: 215.879517
+rate A <-> C: 4.127562
+rate A <-> G: 9.701491
+rate A <-> T: 7.889870
+rate C <-> G: 1.450249
+rate C <-> T: 5.105948
+rate G <-> T: 1.000000
+freq pi(A): 0.134600
+freq pi(C): 0.260665
+freq pi(G): 0.164941
+freq pi(T): 0.439794
+Overall execution time for full ML analysis: 5429.047977 secs or 1.508069 hours or 0.062836 days

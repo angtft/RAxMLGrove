@@ -1,0 +1,49 @@
+Alignment sites: 867
+sites partition_0 = 1-553
+sites partition_1 = 554-867
+Alignment has 4 completely undetermined sites that will be automatically removed from the input data
+Alignment has 4 completely undetermined sites that will be automatically removed from the input data
+Alignment has 4 completely undetermined sites that will be automatically removed from the input data
+Alignment has 4 completely undetermined sites that will be automatically removed from the input data
+Alignment has 4 completely undetermined sites that will be automatically removed from the input data
+Alignment has 4 completely undetermined sites that will be automatically removed from the input data
+Alignment has 4 completely undetermined sites that will be automatically removed from the input data
+Alignment has 4 completely undetermined sites that will be automatically removed from the input data
+Alignment has 4 completely undetermined sites that will be automatically removed from the input data
+Alignment has 4 completely undetermined sites that will be automatically removed from the input data
+Alignment has 253 distinct alignment patterns
+Proportion of gaps and completely undetermined characters in this alignment: 22.61%
+Partition: 0
+Alignment Patterns: 142
+DataType: DNA
+Substitution Matrix: GTR
+Partition: 1
+Alignment Patterns: 111
+DataType: DNA
+Substitution Matrix: GTR
+raxml -m GTRGAMMA -f a -p 12345 -T 4 -x 12345 -N autoMRE
+alpha: 0.199555
+Tree-Length: 0.568014
+rate A <-> C: 3.932326
+rate A <-> G: 4.005055
+rate A <-> T: 1.329598
+rate C <-> G: 2.951615
+rate C <-> T: 9.700202
+rate G <-> T: 1.000000
+freq pi(A): 0.217443
+freq pi(C): 0.300087
+freq pi(G): 0.257694
+freq pi(T): 0.224777
+alpha: 1.169199
+Tree-Length: 0.568014
+rate A <-> C: 1.176678
+rate A <-> G: 3.407215
+rate A <-> T: 1.458683
+rate C <-> G: 0.698533
+rate C <-> T: 4.486962
+rate G <-> T: 1.000000
+freq pi(A): 0.146943
+freq pi(C): 0.345134
+freq pi(G): 0.307785
+freq pi(T): 0.200138
+Overall execution time for full ML analysis: 58.969944 secs or 0.016381 hours or 0.000683 days

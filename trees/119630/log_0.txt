@@ -1,0 +1,47 @@
+Alignment sites: 7955
+sites partition_0 = 1-444, 6064-7248, 3839-4233
+sites partition_1 = 445-1787, 2302-2906, 5881-6063
+sites partition_2 = 1788-2301, 4234-4760, 2907-3838
+sites partition_3 = 7249-7526, 4761-4912
+sites partition_4 = 4913-5880
+sites partition_5 = 7527-7955
+Alignment has 5370 distinct alignment patterns
+Proportion of gaps and completely undetermined characters in this alignment: 0.00%
+Partition: 0
+Alignment Patterns: 1586
+DataType: DNA
+Substitution Matrix: GTR
+Partition: 1
+Alignment Patterns: 1156
+DataType: DNA
+Substitution Matrix: GTR
+Partition: 2
+Alignment Patterns: 1314
+DataType: DNA
+Substitution Matrix: GTR
+Partition: 3
+Alignment Patterns: 313
+DataType: DNA
+Substitution Matrix: GTR
+Partition: 4
+Alignment Patterns: 722
+DataType: DNA
+Substitution Matrix: GTR
+Partition: 5
+Alignment Patterns: 279
+DataType: DNA
+Substitution Matrix: GTR
+raxml -m GTRGAMMA -p 12345 -T 16
+Partition: 0
+Base frequencies: 0.195 0.130 0.279 0.396 
+Partition: 1
+Base frequencies: 0.196 0.164 0.245 0.395 
+Partition: 2
+Base frequencies: 0.193 0.147 0.257 0.403 
+Partition: 3
+Base frequencies: 0.205 0.165 0.296 0.334 
+Partition: 4
+Base frequencies: 0.198 0.133 0.268 0.401 
+Partition: 5
+Base frequencies: 0.291 0.186 0.273 0.250 
+alpha[0]: 0.796309 rates[0] ac ag at cg ct gt: 1.409572 5.491038 1.321476 1.790217 5.849746 1.000000 alpha[1]: 0.307559 rates[1] ac ag at cg ct gt: 0.932630 8.040638 1.806383 1.908333 9.260944 1.000000 alpha[2]: 0.479256 rates[2] ac ag at cg ct gt: 1.666843 8.545271 1.598427 2.479002 8.895391 1.000000 alpha[3]: 0.459821 rates[3] ac ag at cg ct gt: 1.129360 5.428893 1.911828 1.742801 5.478444 1.000000 alpha[4]: 0.565111 rates[4] ac ag at cg ct gt: 0.858858 6.405639 1.368172 2.104385 7.483179 1.000000 alpha[5]: 0.635258 rates[5] ac ag at cg ct gt: 0.362856 1.784507 0.930808 0.420240 3.170210 1.000000 

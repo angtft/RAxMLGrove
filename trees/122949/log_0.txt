@@ -1,0 +1,51 @@
+Alignment sites: 23 1433
+sites partition_0 = 1-629
+sites partition_1 = 630-1433
+Alignment has 1 completely undetermined sites that will be automatically removed from the input data
+Alignment has 1 completely undetermined sites that will be automatically removed from the input data
+Alignment has 1 completely undetermined sites that will be automatically removed from the input data
+Alignment has 1 completely undetermined sites that will be automatically removed from the input data
+Alignment has 1 completely undetermined sites that will be automatically removed from the input data
+Alignment has 1 completely undetermined sites that will be automatically removed from the input data
+Alignment has 1 completely undetermined sites that will be automatically removed from the input data
+Alignment has 1 completely undetermined sites that will be automatically removed from the input data
+Alignment has 1 completely undetermined sites that will be automatically removed from the input data
+Alignment has 1 completely undetermined sites that will be automatically removed from the input data
+Alignment has 370 distinct alignment patterns
+Proportion of gaps and completely undetermined characters in this alignment: 53.53%
+Partition: 0
+Alignment Patterns: 238
+DataType: DNA
+Substitution Matrix: GTR
+Partition: 1
+Alignment Patterns: 132
+DataType: DNA
+Substitution Matrix: GTR
+raxml -m GTRCATI -f a -p 12345 -T 4 -x 12345 -N autoMRE
+alpha: 0.853993
+invar: 0.425038
+Tree-Length: 0.995447
+rate A <-> C: 1.365967
+rate A <-> G: 2.194897
+rate A <-> T: 0.921677
+rate C <-> G: 1.372303
+rate C <-> T: 6.402558
+rate G <-> T: 1.000000
+freq pi(A): 0.210685
+freq pi(C): 0.309771
+freq pi(G): 0.280639
+freq pi(T): 0.198905
+alpha: 0.623037
+invar: 0.599247
+Tree-Length: 0.995447
+rate A <-> C: 5.699245
+rate A <-> G: 23.345509
+rate A <-> T: 16.921325
+rate C <-> G: 0.482431
+rate C <-> T: 28.727847
+rate G <-> T: 1.000000
+freq pi(A): 0.324988
+freq pi(C): 0.164176
+freq pi(G): 0.216722
+freq pi(T): 0.294114
+Overall execution time for full ML analysis: 29.306195 secs or 0.008141 hours or 0.000339 days

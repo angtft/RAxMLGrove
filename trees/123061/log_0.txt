@@ -1,0 +1,49 @@
+Alignment sites: 14 1282
+sites partition_0 = 1-888
+sites partition_1 = 889-1282
+Alignment has 2 completely undetermined sites that will be automatically removed from the input data
+Alignment has 2 completely undetermined sites that will be automatically removed from the input data
+Alignment has 2 completely undetermined sites that will be automatically removed from the input data
+Alignment has 2 completely undetermined sites that will be automatically removed from the input data
+Alignment has 2 completely undetermined sites that will be automatically removed from the input data
+Alignment has 2 completely undetermined sites that will be automatically removed from the input data
+Alignment has 2 completely undetermined sites that will be automatically removed from the input data
+Alignment has 2 completely undetermined sites that will be automatically removed from the input data
+Alignment has 2 completely undetermined sites that will be automatically removed from the input data
+Alignment has 2 completely undetermined sites that will be automatically removed from the input data
+Alignment has 256 distinct alignment patterns
+Proportion of gaps and completely undetermined characters in this alignment: 25.82%
+Partition: 0
+Alignment Patterns: 235
+DataType: DNA
+Substitution Matrix: GTR
+Partition: 1
+Alignment Patterns: 21
+DataType: DNA
+Substitution Matrix: GTR
+raxml -m GTRCAT -f a -p 12345 -T 4 -x 12345 -N 1000
+alpha: 0.277419
+Tree-Length: 1.398079
+rate A <-> C: 1.729503
+rate A <-> G: 13.643878
+rate A <-> T: 0.077193
+rate C <-> G: 0.464589
+rate C <-> T: 8.883930
+rate G <-> T: 1.000000
+freq pi(A): 0.350205
+freq pi(C): 0.314200
+freq pi(G): 0.106006
+freq pi(T): 0.229588
+alpha: 0.020000
+Tree-Length: 1.398079
+rate A <-> C: 0.000100
+rate A <-> G: 199.803214
+rate A <-> T: 0.637577
+rate C <-> G: 0.833831
+rate C <-> T: 2.332986
+rate G <-> T: 1.000000
+freq pi(A): 0.264340
+freq pi(C): 0.207754
+freq pi(G): 0.269249
+freq pi(T): 0.258656
+Overall execution time for full ML analysis: 18.920902 secs or 0.005256 hours or 0.000219 days

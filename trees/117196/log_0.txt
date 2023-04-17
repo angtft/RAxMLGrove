@@ -1,0 +1,41 @@
+Alignment sites: 23 1410
+sites partition_0 = 1-618
+sites partition_1 = 619-1410
+Alignment has 352 distinct alignment patterns
+Proportion of gaps and completely undetermined characters in this alignment: 50.08%
+Partition: 0
+Alignment Patterns: 244
+DataType: DNA
+Substitution Matrix: GTR
+Partition: 1
+Alignment Patterns: 108
+DataType: DNA
+Substitution Matrix: GTR
+raxml -m GTRCATI -f a -p 12345 -T 4 -x 12345 -N autoMRE
+alpha: 0.452643
+invar: 0.203800
+Tree-Length: 0.928218
+rate A <-> C: 1.773545
+rate A <-> G: 2.705387
+rate A <-> T: 1.070169
+rate C <-> G: 2.038427
+rate C <-> T: 9.468969
+rate G <-> T: 1.000000
+freq pi(A): 0.209957
+freq pi(C): 0.310689
+freq pi(G): 0.280270
+freq pi(T): 0.199084
+alpha: 0.446328
+invar: 0.689557
+Tree-Length: 0.928218
+rate A <-> C: 13.712617
+rate A <-> G: 28.993472
+rate A <-> T: 12.569253
+rate C <-> G: 0.649519
+rate C <-> T: 47.409319
+rate G <-> T: 1.000000
+freq pi(A): 0.327258
+freq pi(C): 0.163154
+freq pi(G): 0.216443
+freq pi(T): 0.293145
+Overall execution time for full ML analysis: 73.827381 secs or 0.020508 hours or 0.000854 days

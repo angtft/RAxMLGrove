@@ -1,0 +1,26 @@
+Alignment sites: 1986
+sites partition_0 = 1-486
+sites partition_1 = 487-1022
+sites partition_2 = 1023-1986
+Alignment has 558 distinct alignment patterns
+Proportion of gaps and completely undetermined characters in this alignment: 29.04%
+Partition: 0
+Alignment Patterns: 88
+DataType: DNA
+Substitution Matrix: GTR
+Partition: 1
+Alignment Patterns: 188
+DataType: DNA
+Substitution Matrix: GTR
+Partition: 2
+Alignment Patterns: 282
+DataType: DNA
+Substitution Matrix: GTR
+raxml -m GTRCAT -p 12345 -T 8
+Partition: 0
+Base frequencies: 0.292 0.165 0.216 0.327 
+Partition: 1
+Base frequencies: 0.269 0.261 0.234 0.237 
+Partition: 2
+Base frequencies: 0.275 0.195 0.269 0.261 
+alpha[0]: 1.000000 rates[0] ac ag at cg ct gt: 1.589066 12.236843 0.054575 0.890957 8.123411 1.000000 alpha[1]: 1.000000 rates[1] ac ag at cg ct gt: 0.924364 3.058368 0.979148 0.857901 3.974783 1.000000 alpha[2]: 1.000000 rates[2] ac ag at cg ct gt: 0.727492 4.361172 0.582312 0.670749 4.172809 1.000000 

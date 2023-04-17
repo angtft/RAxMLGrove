@@ -1,0 +1,51 @@
+Alignment sites: 867
+sites partition_0 = 1-553
+sites partition_1 = 554-867
+Alignment has 4 completely undetermined sites that will be automatically removed from the input data
+Alignment has 4 completely undetermined sites that will be automatically removed from the input data
+Alignment has 4 completely undetermined sites that will be automatically removed from the input data
+Alignment has 4 completely undetermined sites that will be automatically removed from the input data
+Alignment has 4 completely undetermined sites that will be automatically removed from the input data
+Alignment has 4 completely undetermined sites that will be automatically removed from the input data
+Alignment has 4 completely undetermined sites that will be automatically removed from the input data
+Alignment has 4 completely undetermined sites that will be automatically removed from the input data
+Alignment has 4 completely undetermined sites that will be automatically removed from the input data
+Alignment has 4 completely undetermined sites that will be automatically removed from the input data
+Alignment has 253 distinct alignment patterns
+Proportion of gaps and completely undetermined characters in this alignment: 22.61%
+Partition: 0
+Alignment Patterns: 142
+DataType: DNA
+Substitution Matrix: GTR
+Partition: 1
+Alignment Patterns: 111
+DataType: DNA
+Substitution Matrix: GTR
+raxml -m GTRGAMMAI -f a -p 12345 -T 4 -x 12345 -N autoMRE
+alpha: 0.583013
+invar: 0.503310
+Tree-Length: 0.609414
+rate A <-> C: 7.437852
+rate A <-> G: 7.452034
+rate A <-> T: 2.236381
+rate C <-> G: 5.061263
+rate C <-> T: 16.427023
+rate G <-> T: 1.000000
+freq pi(A): 0.217443
+freq pi(C): 0.300087
+freq pi(G): 0.257694
+freq pi(T): 0.224777
+alpha: 1.087228
+invar: 0.000100
+Tree-Length: 0.609414
+rate A <-> C: 1.237467
+rate A <-> G: 3.643177
+rate A <-> T: 1.532896
+rate C <-> G: 0.727505
+rate C <-> T: 4.750617
+rate G <-> T: 1.000000
+freq pi(A): 0.146943
+freq pi(C): 0.345134
+freq pi(G): 0.307785
+freq pi(T): 0.200138
+Overall execution time for full ML analysis: 43.443994 secs or 0.012068 hours or 0.000503 days
